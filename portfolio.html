@@ -1,0 +1,1457 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Luxen Holdings - Portfolio</title>
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/images/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/images/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/images/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/images/site.webmanifest" />
+        <meta
+            name="description"
+            content="Luxen Holdings is a diversified parent company managing specialized businesses with focus on excellence, innovation, and reliability across construction, electronics, logistics, and courier services."
+        />
+        <meta
+            name="keywords"
+            content="Luxen Holdings, parent company, construction, electronics trading, logistics, courier services, corporate excellence"
+        />
+        <!-- Open Graph / Social Preview -->
+        <meta
+            property="og:title"
+            content="Luxen Holdings - Building Excellence Across Industries"
+        />
+        <meta
+            property="og:description"
+            content="Luxen Holdings is a diversified parent company managing specialized businesses with focus on excellence, innovation, and reliability across construction, electronics, logistics, and courier services."
+        />
+        <meta
+            property="og:image"
+            content="https://luxenholdings.vercel.app/images/logo.png"
+        />
+        <meta property="og:url" content="https://luxenholdings.vercel.app/" />
+        <meta property="og:type" content="website" />
+
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:image"
+            content="https://luxenholdings.vercel.app/images/logo.png"
+        />
+
+        <!-- Google Font -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Tailwind CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- JS -->
+        <script src="/portfolio.js" defer></script>
+    </head>
+    <body>
+        <!-- header -->
+        <section class="header">
+            <!-- ===== Navbar ===== -->
+            <header
+                id="navbar"
+                class="w-full fixed top-0 z-50 transition-all duration-300 bg-white shadow-md animate-navbar"
+            >
+                <div class="flex items-center justify-between px-[5%] py-4">
+                    <!-- Logo -->
+                    <div class="flex items-center gap-2">
+                        <img
+                            onclick="window.location.href = '/index.html#Home'"
+                            src="/images/logo.png"
+                            class="w-20 h-auto"
+                        />
+                        <div class="text-lg">
+                            <a
+                                href="/index.html#Home"
+                                class="luxen font-normal text-gray-600 transition-colors duration-300"
+                            >
+                            </a>
+                            <a
+                                href="/index.html#Home"
+                                class="holdings font-semibold text-gray-600 transition-colors duration-300"
+                            >
+                                Holdings
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Desktop Nav -->
+                    <nav class="hidden lg:flex items-center gap-10">
+                        <a
+                            href="/index.html#Home"
+                            class="nav-link text-gray-700 font-medium hover:text-amber-600 transition-colors duration-300"
+                            >Home</a
+                        >
+                        <a
+                            href="/index.html#About"
+                            class="nav-link text-gray-700 font-medium hover:text-amber-600 transition-colors duration-300"
+                            >About</a
+                        >
+
+                        <!-- Portfolio Dropdown -->
+                        <div class="relative group">
+                            <button
+                                class="nav-link text-gray-700 font-medium hover:text-amber-600 transition-colors duration-300 flex items-center gap-1"
+                            >
+                                Subsidiaries
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="w-4 h-4 mt-1"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M19 9l-7 7-7-7"
+                                    />
+                                </svg>
+                            </button>
+
+                            <div
+                                class="absolute left-0 mt-3 w-61 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300"
+                            >
+                                <!-- Construction & Property -->
+                                <a
+                                    href="#contracting"
+                                    class="rounded-lg block px-5 py-3 text-gray-700 hover:bg-amber-50 hover:text-amber-600 transition"
+                                >
+                                    Contracting & Real Estate
+                                </a>
+
+                                <a
+                                    href="#Interiors"
+                                    class="rounded-lg block px-5 py-3 text-gray-700 hover:bg-amber-50 hover:text-amber-600 transition"
+                                >
+                                    Interiors & Fit-outs
+                                </a>
+
+                                <!-- Industrial Services -->
+                                <a
+                                    href="#SandBlasting"
+                                    class="rounded-lg block px-5 py-3 text-gray-700 hover:bg-amber-50 hover:text-amber-600 transition"
+                                >
+                                    Sand Blasting & Painting
+                                </a>
+
+                                <!-- Transport & Logistics -->
+                                <a
+                                    href="#Transport"
+                                    class="rounded-lg block px-5 py-3 text-gray-700 hover:bg-amber-50 hover:text-amber-600 transition"
+                                >
+                                    Transport Services
+                                </a>
+
+                                <a
+                                    href="#Logistics"
+                                    class="rounded-lg block px-5 py-3 text-gray-700 hover:bg-amber-50 hover:text-amber-600 transition"
+                                >
+                                    Logistics Cargo Services
+                                </a>
+
+                                <a
+                                    href="#Courier"
+                                    class="rounded-lg block px-5 py-3 text-gray-700 hover:bg-amber-50 hover:text-amber-600 transition"
+                                >
+                                    Express Courier Services
+                                </a>
+
+                                <!-- Technology -->
+                                <a
+                                    href="#Technology"
+                                    class="rounded-lg block px-5 py-3 text-gray-700 hover:bg-amber-50 hover:text-amber-600 transition"
+                                >
+                                    Electronics & Computers
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- <a
+                            href="/index.html#Leadership"
+                            class="nav-link text-gray-700 font-medium hover:text-amber-600 transition-colors duration-300"
+                            >Leadership</a
+                        > -->
+                        <a
+                            href="/index.html#Careers"
+                            class="nav-link text-gray-700 font-medium hover:text-amber-600 transition-colors duration-300"
+                            >Careers</a
+                        >
+
+                        <!-- Contact Button -->
+                        <a
+                            href="/index.html#Contact"
+                            class="bg-gradient-to-r from-amber-500 to-yellow-600 hover:from-amber-600 hover:to-yellow-700 text-white hover:text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 transform hover:scale-110"
+                        >
+                            Contact Us
+                        </a>
+                    </nav>
+
+                    <!-- Hamburger -->
+                    <div
+                        id="hamburger"
+                        class="lg:hidden flex flex-col gap-1 cursor-pointer z-50"
+                    >
+                        <span
+                            class="w-6 h-[3px] rounded bg-gray-800 transition-colors duration-300"
+                        ></span>
+                        <span
+                            class="w-6 h-[3px] rounded bg-gray-800 transition-colors duration-300"
+                        ></span>
+                        <span
+                            class="w-6 h-[3px] rounded bg-gray-800 transition-colors duration-300"
+                        ></span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Overlay -->
+            <div
+                id="overlay"
+                class="fixed inset-0 bg-black/40 opacity-0 pointer-events-none transition-opacity duration-300 lg:hidden z-40"
+            ></div>
+
+            <!-- Mobile Sidebar -->
+            <div
+                id="mobileMenu"
+                class="fixed top-0 right-0 h-screen w-71 bg-white shadow-xl transform translate-x-full transition-transform duration-300 ease-in-out flex flex-col gap-6 p-8 lg:hidden z-50"
+            >
+                <a
+                    href="/index.html#Home"
+                    class="text-gray-700 font-medium hover:text-amber-600 transition-colors duration-300"
+                    >Home</a
+                >
+                <a
+                    href="/index.html#About"
+                    class="text-gray-700 font-medium hover:text-amber-600 transition-colors duration-300"
+                    >About</a
+                >
+
+                <!-- Mobile Portfolio Dropdown -->
+                <div>
+                    <button
+                        id="mobilePortfolioBtn"
+                        class="w-full text-left text-gray-700 font-medium hover:text-amber-600 transition-colors duration-300 flex items-center justify-between"
+                    >
+                        Subsidiaries
+                        <span>+</span>
+                    </button>
+
+                    <div
+                        id="mobilePortfolioMenu"
+                        class="hidden flex flex-col mt-3 ml-4 gap-3"
+                    >
+                        <a
+                            href="#contracting"
+                            class="text-gray-600 hover:text-amber-600 transition"
+                        >
+                            Contracting & Real Estate
+                        </a>
+
+                        <a
+                            href="#Interiors"
+                            class="text-gray-600 hover:text-amber-600 transition"
+                        >
+                            Interiors & Fit-outs
+                        </a>
+
+                        <a
+                            href="#SandBlasting"
+                            class="text-gray-600 hover:text-amber-600 transition"
+                        >
+                            Sand Blasting & Painting
+                        </a>
+
+                        <a
+                            href="#Transport"
+                            class="text-gray-600 hover:text-amber-600 transition"
+                        >
+                            Transport Services
+                        </a>
+
+                        <a
+                            href="#Logistics"
+                            class="text-gray-600 hover:text-amber-600 transition"
+                        >
+                            Logistics Cargo Services
+                        </a>
+
+                        <a
+                            href="#Courier"
+                            class="text-gray-600 hover:text-amber-600 transition"
+                        >
+                            Express Courier Services
+                        </a>
+
+                        <a
+                            href="#Technology"
+                            class="text-gray-600 hover:text-amber-600 transition"
+                        >
+                            Electronics & Computers
+                        </a>
+                    </div>
+                </div>
+
+                <!-- <a
+                    href="/index.html#Leadership"
+                    class="text-gray-700 font-medium hover:text-amber-600 transition-colors duration-300"
+                    >Leadership</a
+                > -->
+                <a
+                    href="/index.html#Careers"
+                    class="text-gray-700 font-medium hover:text-amber-600 transition-colors duration-300"
+                    >Careers</a
+                >
+
+                <a
+                    href="/index.html#Contact"
+                    class="bg-gradient-to-r from-amber-500 to-yellow-600 hover:from-amber-600 hover:to-yellow-700 text-white hover:text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 transform hover:scale-110"
+                >
+                    Contact Us
+                </a>
+            </div>
+        </section>
+        <!-- portfolio Section -->
+        <section
+            id="Portfolio"
+            class="px-[5%] pb-24 pt-30 min-h-[100vh] bg-white"
+        >
+            <div class="w-full mx-auto">
+                <div class="text-center mb-20">
+                    <div class="inline-block mb-6">
+                        <span
+                            class="bg-gradient-to-r from-amber-500 to-yellow-600 text-white px-4 py-2 rounded-full text-sm font-semibold tracking-wide uppercase"
+                            >Our Portfolio</span
+                        >
+                    </div>
+                    <h2
+                        class="text-4xl lg:text-6xl font-light text-slate-800 mb-6"
+                    >
+                        Strategic
+                        <span class="font-bold text-amber-600"
+                            >Subsidiaries</span
+                        >
+                    </h2>
+                    <div
+                        class="w-24 h-0.5 bg-gradient-to-r from-amber-500 to-yellow-600 mx-auto mb-8"
+                    ></div>
+                    <p
+                        class="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed"
+                    >
+                        Our diversified portfolio encompasses industry-leading
+                        enterprises, each maintaining specialized expertise
+                        while benefiting from our integrated strategic oversight
+                        and operational excellence.
+                    </p>
+                </div>
+                <div class="space-y-32 mb-32">
+                    <!-- 1. LUXEN CONTRACTING -->
+                    <section class="group cursor-pointer" id="contracting">
+                        <div
+                            class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center px-8"
+                        >
+                            <div
+                                style="
+                                    background-image: url(/images/buildingimage.jpg);
+                                "
+                                class="w-full flex justify-end h-[500px] object-cover rounded-3xl shadow-xl transition duration-500 group-hover:shadow-2xl group-hover:scale-[1.02]"
+                                alt="Luxen Contracting"
+                                onclick="
+                                    window.location.href =
+                                        'https://www.luxen.ae/'
+                                "
+                            >
+                                <div class="mt-5 mr-5">
+                                    <a
+                                        href="https://www.luxen.ae/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="View Project"
+                                        class="w-10 h-10 flex items-center justify-center rounded-lg bg-white/85 backdrop-blur-sm text-slate-700 hover:text-amber-600 transition-colors duration-300"
+                                    >
+                                        <!-- Minimal Arrow Up Right Icon -->
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="w-4 h-4 lucide lucide-arrow-up-right-icon lucide-arrow-up-right"
+                                        >
+                                            <path d="M7 7h10v10"></path>
+                                            <path d="M7 17 17 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h2
+                                    class="text-5xl font-light mb-6 text-slate-900"
+                                >
+                                    <span class="font-semibold">Luxen</span>
+                                    Contracting & Real Estate
+                                </h2>
+
+                                <p class="text-slate-600 leading-relaxed mb-8">
+                                  Since 2007 Premium construction & real estate development firm specializing in luxury commercial and residential projects with comprehensive property management services Core services: Commercial construction, Property management, General Maintanace, AMC services
+                                </p>
+
+                                <div
+                                    class="grid grid-cols-2 gap-y-3 text-sm text-slate-700 mb-8"
+                                >
+                                    <span>Commercial Construction</span>
+                                    <span>Luxury Development</span>
+                                    <span>Property Management</span>
+                                    <span>Investment Advisory</span>
+                                </div>
+
+                                <!-- Certifications -->
+                                <div class="mb-8">
+                                    <h4
+                                        class="text-sm font-semibold uppercase tracking-widest text-slate-500 mb-4"
+                                    >
+                                        Certifications
+                                    </h4>
+                                    <div class="flex flex-wrap gap-3">
+                                        <span
+                                            class="px-4 py-2 rounded-full bg-green-50 text-green-600 border border-green-200 text-sm font-medium"
+                                            >ICV Certified</span
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="flex gap-16 border-t pt-6">
+                                    <div>
+                                        <p class="text-2xl font-semibold">
+                                            50+
+                                        </p>
+                                        <p
+                                            class="text-xs uppercase tracking-widest text-slate-500"
+                                        >
+                                            Projects
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="text-2xl font-semibold">
+                                            15+ Years
+                                        </p>
+                                        <p
+                                            class="text-xs uppercase tracking-widest text-slate-500"
+                                        >
+                                            Experience
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- 2. LUXEN ELECTRONICS -->
+                    <section class="group cursor-pointer" id="Technology">
+                        <div
+                            class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center px-8"
+                        >
+                            <div
+                                style="
+                                    background-image: url(/images/cpuimage.jpg);
+                                "
+                                class="lg:order-2 w-full flex justify-end h-[500px] object-cover rounded-3xl shadow-xl transition duration-500 group-hover:shadow-2xl group-hover:scale-[1.02]"
+                                alt="Luxen Electronics"
+                                onclick="
+                                    window.location.href =
+                                        'https://luxenelectronics.com/'
+                                "
+                            >
+                                <div class="mt-5 mr-5">
+                                    <a
+                                        href="https://luxenelectronics.com/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="View Project"
+                                        class="w-10 h-10 flex items-center justify-center rounded-lg bg-white/85 backdrop-blur-sm text-slate-700 hover:text-amber-600 transition-colors duration-300"
+                                    >
+                                        <!-- Minimal Arrow Up Right Icon -->
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="w-4 h-4 lucide lucide-arrow-up-right-icon lucide-arrow-up-right"
+                                        >
+                                            <path d="M7 7h10v10"></path>
+                                            <path d="M7 17 17 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="lg:order-1">
+                                <h2
+                                    class="text-5xl font-light mb-6 text-slate-900"
+                                >
+                                    <span class="font-semibold">Luxen</span>
+                                    Electronics Trading
+                                </h2>
+
+                                <p class="text-slate-600 leading-relaxed mb-8">
+                                    Global electronics trading enterprise
+                                    focused on premium technology solutions,
+                                    advanced components, and strategic
+                                    distribution partnerships across
+                                    international markets.
+                                </p>
+
+                                <div
+                                    class="grid grid-cols-2 gap-y-3 text-sm text-slate-700 mb-8"
+                                >
+                                    <span>Technology Solutions</span>
+                                    <span>B2B Trading</span>
+                                    <span>AMC Services</span>
+                                    <span>Retail Trading</span>
+                                </div>
+
+                                <!-- <div class="mb-8">
+                                    <h4
+                                        class="text-sm font-semibold uppercase tracking-widest text-slate-500 mb-4"
+                                    >
+                                        Certifications
+                                    </h4>
+                                    <div class="flex flex-wrap gap-3">
+                                        <span
+                                            class="px-4 py-2 rounded-full bg-green-50 text-green-600 border border-green-200 text-sm font-medium"
+                                            >ISO 14001</span
+                                        >
+                                        <span
+                                            class="px-4 py-2 rounded-full bg-green-50 text-green-600 border border-green-200 text-sm font-medium"
+                                            >CE Compliance</span
+                                        >
+                                        <span
+                                            class="px-4 py-2 rounded-full bg-green-50 text-green-600 border border-green-200 text-sm font-medium"
+                                            >RoHS Certified</span
+                                        >
+                                    </div>
+                                </div> -->
+
+                                <div class="flex gap-16 border-t pt-6">
+                                    <div>
+                                        <p class="text-2xl font-semibold">
+                                            15+
+                                        </p>
+                                        <p
+                                            class="text-xs uppercase tracking-widest text-slate-500"
+                                        >
+                                            Projects
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="text-2xl font-semibold">
+                                            150+
+                                        </p>
+                                        <p
+                                            class="text-xs uppercase tracking-widest text-slate-500"
+                                        >
+                                            Experience
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- 3. LUXURY LOGISTICS -->
+                    <section class="group cursor-pointer" id="Logistics">
+                        <div
+                            class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center px-8"
+                        >
+                            <div
+                                class="flex justify-end w-full h-[500px] object-cover rounded-3xl shadow-xl transition duration-500 group-hover:shadow-2xl group-hover:scale-[1.02]"
+                                style="
+                                    background-image: url(/images/storeageimage.jpg);
+                                "
+                                onclick="
+                                    window.location.href =
+                                        'https://www.luxuryls.com/'
+                                "
+                            >
+                                <div class="mt-5 mr-5">
+                                    <a
+                                        href="https://www.luxuryls.com/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="View Project"
+                                        class="w-10 h-10 flex items-center justify-center rounded-lg bg-white/85 backdrop-blur-sm text-slate-700 hover:text-amber-600 transition-colors duration-300"
+                                    >
+                                        <!-- Minimal Arrow Up Right Icon -->
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="w-4 h-4 lucide lucide-arrow-up-right-icon lucide-arrow-up-right"
+                                        >
+                                            <path d="M7 7h10v10"></path>
+                                            <path d="M7 17 17 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h2 class="text-5xl font-light mb-6">
+                                    <span class="font-semibold">Luxury</span>
+                                    Logistics
+                                </h2>
+
+                                <p class="text-slate-600 leading-relaxed mb-8">
+                                    Sophisticated supply chain management and
+                                    logistics solutions provider delivering
+                                    comprehensive warehousing, distribution, and
+                                    inventory optimization services.
+                                </p>
+
+                                <div
+                                    class="grid grid-cols-2 gap-y-3 text-sm text-slate-700 mb-8"
+                                >
+                                    <span>Supply Chain Optimization</span>
+                                    <span>Advanced Warehousing</span>
+                                    <span>Distribution Networks</span>
+                                    <span>Logistics Technology</span>
+                                </div>
+
+                                <div class="mb-8">
+                                    <h4
+                                        class="text-sm font-semibold uppercase tracking-widest text-slate-500 mb-4"
+                                    >
+                                        Certifications
+                                    </h4>
+                                    <div class="flex flex-wrap gap-3">
+                                        <span
+                                            class="px-4 py-2 rounded-full bg-green-50 text-green-600 border border-green-200 text-sm font-medium"
+                                            >ISO 9001 : 2008-2015</span
+                                        >
+                                        <span
+                                            class="px-4 py-2 rounded-full bg-green-50 text-green-600 border border-green-200 text-sm font-medium"
+                                            >ICV Certified</span
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="flex gap-16 border-t pt-6">
+                                    <div>
+                                        <p class="text-2xl font-semibold">
+                                            $25M+
+                                        </p>
+                                        <p
+                                            class="text-xs uppercase tracking-widest text-slate-500"
+                                        >
+                                            Projects
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="text-2xl font-semibold">
+                                            300+
+                                        </p>
+                                        <p
+                                            class="text-xs uppercase tracking-widest text-slate-500"
+                                        >
+                                            Experience
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- 4. LUXURY EXPRESS COURIER -->
+                    <section class="group cursor-pointer" id="Courier">
+                        <div
+                            class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center px-8"
+                        >
+                            <div
+                                onclick="
+                                    window.location.href =
+                                        'https://www.luxuryls.com/courier-services.html'
+                                "
+                                style="
+                                    background-image: url(/images/truckimage.jpg);
+                                "
+                                class="flex justify-end lg:order-2 w-full h-[500px] object-cover rounded-3xl shadow-xl transition duration-500 group-hover:shadow-2xl group-hover:scale-[1.02]"
+                            >
+                                <div class="mt-5 mr-5">
+                                    <a
+                                        href="https://www.luxuryls.com/courier-services.html"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="View Project"
+                                        class="w-10 h-10 flex items-center justify-center rounded-lg bg-white/85 backdrop-blur-sm text-slate-700 hover:text-amber-600 transition-colors duration-300"
+                                    >
+                                        <!-- Minimal Arrow Up Right Icon -->
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="w-4 h-4 lucide lucide-arrow-up-right-icon lucide-arrow-up-right"
+                                        >
+                                            <path d="M7 7h10v10"></path>
+                                            <path d="M7 17 17 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h2 class="text-5xl font-light mb-6">
+                                    <span class="font-semibold">Luxury</span>
+                                    Express Courier Services
+                                </h2>
+
+                                <p class="text-slate-600 leading-relaxed mb-8">
+                                    Premium courier and express delivery
+                                    services offering secure, time-critical
+                                    transportation solutions.
+                                </p>
+
+                                <div
+                                    class="grid grid-cols-2 gap-y-3 text-sm text-slate-700 mb-8"
+                                >
+                                    <span>Executive Courier</span>
+                                    <span>Secure Transport</span>
+                                    <span>International Express</span>
+                                    <span>Time-Critical Delivery</span>
+                                </div>
+
+                                <div class="mb-8">
+                                    <h4
+                                        class="text-sm font-semibold uppercase tracking-widest text-slate-500 mb-4"
+                                    >
+                                        Certifications
+                                    </h4>
+                                    <div class="flex flex-wrap gap-3">
+                                        <span
+                                            class="px-4 py-2 rounded-full bg-green-50 text-green-600 border border-green-200 text-sm font-medium"
+                                            >Empost Approved</span
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="flex gap-16 border-t pt-6">
+                                    <div>
+                                        <p class="text-2xl font-semibold">
+                                            $20M+
+                                        </p>
+                                        <p
+                                            class="text-xs uppercase tracking-widest text-slate-500"
+                                        >
+                                            Projects
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="text-2xl font-semibold">
+                                            500+
+                                        </p>
+                                        <p
+                                            class="text-xs uppercase tracking-widest text-slate-500"
+                                        >
+                                            Experience
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- 5. LUXEN BLASTING & PAINTING -->
+                    <section class="group cursor-pointer" id="SandBlasting">
+                        <div
+                            class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center px-8"
+                        >
+                            <div
+                                onclick="
+                                    window.location.href =
+                                        'https://www.luxen.ae/'
+                                "
+                                style="
+                                    background-image: url(/images/blastingpainting.jpg);
+                                    background-position: center;
+                                    background-size: cover;
+                                "
+                                class="w-full h-[500px] flex justify-end rounded-3xl shadow-xl transition duration-500 group-hover:shadow-2xl group-hover:scale-[1.02]"
+                                alt="Luxen Blasting & Painting"
+                            >
+                                <div class="mt-5 mr-5">
+                                    <a
+                                        href="https://www.luxen.ae/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="View Project"
+                                        class="w-10 h-10 flex items-center justify-center rounded-lg bg-white/85 backdrop-blur-sm text-slate-700 hover:text-amber-600 transition-colors duration-300"
+                                    >
+                                        <!-- Minimal Arrow Up Right Icon -->
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="w-4 h-4 lucide lucide-arrow-up-right-icon lucide-arrow-up-right"
+                                        >
+                                            <path d="M7 7h10v10"></path>
+                                            <path d="M7 17 17 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h2
+                                    class="text-5xl font-light mb-6 text-slate-900"
+                                >
+                                    <span class="font-semibold">Luxen</span>
+                                    Blasting & Painting
+                                </h2>
+
+                                <p class="text-slate-600 leading-relaxed mb-8">
+                                    Professional industrial surface preparation
+                                    and protective coating solutions delivering
+                                    corrosion resistance and long-term
+                                    structural protection.
+                                </p>
+
+                                <div
+                                    class="grid grid-cols-2 gap-y-3 text-sm text-slate-700 mb-8"
+                                >
+                                    <span>Surface Blasting</span>
+                                    <span>Corrosion Protection</span>
+                                    <span>Industrial Coating</span>
+                                    <span>Fire Protection Systems</span>
+                                </div>
+
+                                <!-- Certifications -->
+                                <div class="mb-8">
+                                    <h4
+                                        class="text-sm font-semibold uppercase tracking-widest text-slate-500 mb-4"
+                                    >
+                                        Certifications
+                                    </h4>
+                                    <div class="flex flex-wrap gap-3">
+                                        <span
+                                            class="px-4 py-2 rounded-full bg-green-50 text-green-600 border border-green-200 text-sm font-medium"
+                                            >Adnoc Approved</span
+                                        >
+                                        <span
+                                            class="px-4 py-2 rounded-full bg-green-50 text-green-600 border border-green-200 text-sm font-medium"
+                                            >ICV Certified</span
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="flex gap-16 border-t pt-6">
+                                    <div>
+                                        <p class="text-2xl font-semibold">
+                                            10+
+                                        </p>
+                                        <p
+                                            class="text-xs uppercase tracking-widest text-slate-500"
+                                        >
+                                            Projects
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="text-2xl font-semibold">
+                                            5+ Years
+                                        </p>
+                                        <p
+                                            class="text-xs uppercase tracking-widest text-slate-500"
+                                        >
+                                            Experience
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- 6. FOREVER INTERIORS -->
+                    <section class="group cursor-pointer" id="Interiors">
+                        <div
+                            class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center px-8"
+                        >
+                            <div
+                                style="
+                                    background-image: url(/images/interiors.jpg);
+                                    background-position: center;
+                                    background-size: cover;
+                                "
+                                onclick=""
+                                class="lg:order-2 w-full flex justify-end h-[500px] object-cover rounded-3xl shadow-xl transition duration-500 group-hover:shadow-2xl group-hover:scale-[1.02]"
+                                alt="Forever Interiors"
+                            >
+                                <div class="mr-5 mt-5">
+                                    <div
+                                        href=""
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="View Project"
+                                        class="w-10 h-10 flex items-center justify-center rounded-lg bg-white/85 backdrop-blur-sm text-slate-700 hover:text-amber-600 transition-colors duration-300"
+                                    >
+                                        <!-- Minimal Arrow Up Right Icon -->
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="w-4 h-4 lucide lucide-arrow-up-right-icon lucide-arrow-up-right"
+                                        >
+                                            <path d="M7 7h10v10"></path>
+                                            <path d="M7 17 17 7"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="lg:order-1">
+                                <h2
+                                    class="text-5xl font-light mb-6 text-slate-900"
+                                >
+                                    <span class="font-semibold">Forever</span>
+                                    Interiors & Fit-Outs
+                                </h2>
+
+                                <p class="text-slate-600 leading-relaxed mb-8">
+                                    Comprehensive interior contracting and
+                                    fit-out solutions delivering innovative
+                                    design, precision craftsmanship, and turnkey
+                                    project execution.
+                                </p>
+
+                                <div
+                                    class="grid grid-cols-2 gap-y-3 text-sm text-slate-700 mb-8"
+                                >
+                                    <span>Interior Design</span>
+                                    <span>Commercial Fit-Outs</span>
+                                    <span>Space Planning</span>
+                                    <span>Turnkey Execution</span>
+                                    <span>Fire-Rated Wooden Doors</span>
+                                </div>
+
+                                
+
+                                <div class="flex gap-16 border-t pt-6">
+                                    <div>
+                                        <p class="text-2xl font-semibold">
+                                            20+
+                                        </p>
+                                        <p
+                                            class="text-xs uppercase tracking-widest text-slate-500"
+                                        >
+                                            Projects
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="text-2xl font-semibold">
+                                            8+ Years
+                                        </p>
+                                        <p
+                                            class="text-xs uppercase tracking-widest text-slate-500"
+                                        >
+                                            Experience
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- 7. LUXEN TRANSPORT -->
+                    <section class="group cursor-pointer" id="Transport">
+                        <div
+                            class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center px-8"
+                        >
+                            <div>
+                                <img
+                                    src="/images/transport.jpg"
+                                    class="w-full h-[500px] object-cover rounded-3xl shadow-xl transition duration-500 group-hover:shadow-2xl group-hover:scale-[1.02]"
+                                    alt="Luxen Transport"
+                                />
+                            </div>
+
+                            <div>
+                                <h2
+                                    class="text-5xl font-light mb-6 text-slate-900"
+                                >
+                                    <span class="font-semibold">Luxen</span>
+                                    Transport
+                                </h2>
+
+                                <p class="text-slate-600 leading-relaxed mb-8">
+                                    Professional transport and logistics
+                                    services providing safe, efficient, and
+                                    reliable fleet operations.
+                                </p>
+
+                                <div
+                                    class="grid grid-cols-2 gap-y-3 text-sm text-slate-700 mb-8"
+                                >
+                                    <span>Bus Services</span>
+                                    <span>High Roof Van</span>
+                                    <span>Trailer Transport</span>
+                                    <span>Flat Bed Trucks</span>
+                                </div>
+
+                                
+                                <div class="flex gap-16 border-t pt-6">
+                                    <div>
+                                        <p class="text-2xl font-semibold">
+                                            30+
+                                        </p>
+                                        <p
+                                            class="text-xs uppercase tracking-widest text-slate-500"
+                                        >
+                                            Projects
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="text-2xl font-semibold">
+                                            12+ Years
+                                        </p>
+                                        <p
+                                            class="text-xs uppercase tracking-widest text-slate-500"
+                                        >
+                                            Experience
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <section class="footer">
+            <footer class="bg-slate-900 px-[5%] text-white">
+                <div class="max-w-7xl mx-auto py-16">
+                    <div class="grid lg:grid-cols-4 gap-12">
+                        <div class="lg:col-span-2">
+                            <div class="flex items-center space-x-3 mb-6">
+                                <div>
+                                    <div
+                                        class="text-2xl font-light flex flex-row items-center gap-2 text-white"
+                                    >
+                                        <img
+                                            onclick="
+                                                window.location.href = '#Home'
+                                            "
+                                            src="/images/logo.png"
+                                            class="w-22 h-auto"
+                                        />
+                                        <span class="font-bold">Holdings</span>
+                                    </div>
+                                    <div class="text-amber-400 text-sm">
+                                        Building Excellence Across Industries
+                                    </div>
+                                </div>
+                            </div>
+                            <p
+                                class="text-slate-300 leading-relaxed mb-6 max-w-md"
+                            >
+                                A premier diversified holding company
+                                orchestrating specialized enterprises with
+                                unwavering commitment to operational excellence,
+                                strategic innovation, and sustainable growth.
+                            </p>
+                            <div class="flex space-x-4">
+                                <a
+                                    href="#"
+                                    class="w-10 h-10 bg-slate-800 hover:bg-amber-600 rounded-lg flex items-center justify-center transition-colors duration-300"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="18"
+                                        height="18"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="white"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-linkedin-icon lucide-linkedin"
+                                    >
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                                        />
+                                        <rect
+                                            width="4"
+                                            height="12"
+                                            x="2"
+                                            y="9"
+                                        />
+                                        <circle cx="4" cy="4" r="2" />
+                                    </svg>
+                                </a>
+                                <a
+                                    href="#"
+                                    class="w-10 h-10 bg-slate-800 hover:bg-amber-600 rounded-lg flex items-center justify-center transition-colors duration-300"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="18"
+                                        height="18"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-twitter-icon lucide-twitter"
+                                    >
+                                        <path
+                                            d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+                                        />
+                                    </svg>
+                                </a>
+                                <a
+                                    href="#"
+                                    class="w-10 h-10 bg-slate-800 hover:bg-amber-600 rounded-lg flex items-center justify-center transition-colors duration-300"
+                                    ><svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="18"
+                                        height="18"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-facebook-icon lucide-facebook"
+                                    >
+                                        <path
+                                            d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                                        />
+                                    </svg> </a
+                                ><a
+                                    href="#"
+                                    class="w-10 h-10 bg-slate-800 hover:bg-amber-600 rounded-lg flex items-center justify-center transition-colors duration-300"
+                                    ><svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="18"
+                                        height="18"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-instagram-icon lucide-instagram"
+                                    >
+                                        <rect
+                                            width="20"
+                                            height="20"
+                                            x="2"
+                                            y="2"
+                                            rx="5"
+                                            ry="5"
+                                        />
+                                        <path
+                                            d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                                        />
+                                        <line
+                                            x1="17.5"
+                                            x2="17.51"
+                                            y1="6.5"
+                                            y2="6.5"
+                                        />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold mb-6">
+                                Quick Links
+                            </h3>
+                            <ul class="space-y-3">
+                                <li>
+                                    <a
+                                        href="/index.html#Home"
+                                        class="text-slate-300 hover:text-amber-400 transition-colors duration-300 cursor-pointer"
+                                    >
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="/index.html#About"
+                                        class="text-slate-300 hover:text-amber-400 transition-colors duration-300 cursor-pointer"
+                                    >
+                                        About Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="text-slate-300 hover:text-amber-400 transition-colors duration-300 cursor-pointer"
+                                    >
+                                        Our Portfolio
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="/index.html#Leadership"
+                                        class="text-slate-300 hover:text-amber-400 transition-colors duration-300 cursor-pointer"
+                                    >
+                                        Leadership
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="/index.html#Careers"
+                                        class="text-slate-300 hover:text-amber-400 transition-colors duration-300 cursor-pointer"
+                                    >
+                                        Careers
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold mb-6">
+                                Contact Information
+                            </h3>
+                            <div class="space-y-4">
+                                <div class="flex items-start space-x-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="18"
+                                        height="18"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-map-pin-icon lucide-map-pin text-amber-400"
+                                    >
+                                        <path
+                                            d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                                        />
+                                        <circle cx="12" cy="10" r="3" />
+                                    </svg>
+                                    <div>
+                                        <div class="text-slate-300">
+                                            Corporate Headquarters
+                                        </div>
+                                        <div class="text-sm text-slate-400">
+                                            Abu Dhabi Business Hub – ICAD – 1,
+                                            <br />PO.Box: 91663, Abu Dhabi, UAE
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="18"
+                                        height="18"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-phone-icon lucide-phone text-amber-400"
+                                    >
+                                        <path
+                                            d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                                        />
+                                    </svg>
+                                    <div>
+                                        <div class="text-slate-300">
+                                            +971 2 554 6006
+                                        </div>
+                                        <div class="text-sm text-slate-400">
+                                            Main Office
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="18"
+                                        height="18"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-mail-icon lucide-mail text-amber-400"
+                                    >
+                                        <path
+                                            d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                                        />
+                                        <rect
+                                            x="2"
+                                            y="4"
+                                            width="20"
+                                            height="16"
+                                            rx="2"
+                                        />
+                                    </svg>
+                                    <div>
+                                        <div class="text-slate-300">
+                                            info@luxenholdings.com
+                                        </div>
+                                        <div class="text-sm text-slate-400">
+                                            General Inquiries
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-t border-slate-800 mt-12 pt-8">
+                        <h3 class="text-lg font-semibold mb-6 text-center">
+                            Our Subsidiaries
+                        </h3>
+                        <div class="grid md:grid-cols-4 gap-6 text-center">
+                            <div>
+                                <h4 class="font-medium text-white mb-2">
+                                    Luxen Contracting & Real Estate
+                                </h4>
+                                <p class="text-sm text-slate-400">
+                                    Construction &amp; Real Estate
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-white mb-2">
+                                    Luxen Electronics
+                                </h4>
+                                <p class="text-sm text-slate-400">
+                                    Luxen Electronics trading
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-white mb-2">
+                                    Luxury Express
+                                </h4>
+                                <p class="text-sm text-slate-400">
+                                    Courier Services
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-white mb-2">
+                                    Luxury logistics cargo services
+                                </h4>
+                                <p class="text-sm text-slate-400">
+                                    Supply Chain Solutions
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid md:grid-cols-3 gap-6 text-center mt-8">
+                            <div>
+                                <h4 class="font-medium text-white mb-2">
+                                    Luxen Sand Blasting & Painting
+                                </h4>
+                                <p class="text-sm text-slate-400">
+                                    Surface Protection Solutions
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-white mb-2">
+                                    Luxen Transport
+                                </h4>
+                                <p class="text-sm text-slate-400">
+                                    Transport & Logistics
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-white mb-2">
+                                    Forever Interiors & Fit-Outs
+                                </h4>
+                                <p class="text-sm text-slate-400">
+                                    Interior Fit-Out Specialists
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="border-t border-slate-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center"
+                    >
+                        <div class="text-slate-400 text-sm mb-4 md:mb-0">
+                            © 2026 Luxen Holdings. All rights reserved.
+                        </div>
+                        <div class="flex items-center space-x-6 text-sm">
+                            <a
+                                href="#"
+                                class="text-slate-400 hover:text-amber-400 transition-colors duration-300"
+                                >Privacy Policy</a
+                            ><a
+                                href="#"
+                                class="text-slate-400 hover:text-amber-400 transition-colors duration-300"
+                                >Terms of Service</a
+                            ><a
+                                href="#"
+                                class="text-slate-400 hover:text-amber-400 transition-colors duration-300"
+                                >Legal Notice</a
+                            ><a
+                                href="https://readdy.ai/?origin=logo"
+                                class="text-slate-400 hover:text-amber-400 transition-colors duration-300"
+                                >Website Builder</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </body>
+</html>

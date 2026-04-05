@@ -1,0 +1,2760 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Luxen Holdings - Building Excellence Across Industries</title>
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/images/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/images/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/images/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/images/site.webmanifest" />
+        <meta
+            name="description"
+            content="Luxen Holdings is a diversified parent company managing specialized businesses with focus on excellence, innovation, and reliability across construction, electronics, logistics, and courier services."
+        />
+        <meta
+            name="keywords"
+            content="Luxen Holdings, parent company, construction, electronics trading, logistics, courier services, corporate excellence"
+        />
+        <!-- Open Graph / Social Preview -->
+        <meta
+            property="og:title"
+            content="Luxen Holdings - Building Excellence Across Industries"
+        />
+        <meta
+            property="og:description"
+            content="Luxen Holdings is a diversified parent company managing specialized businesses with focus on excellence, innovation, and reliability across construction, electronics, logistics, and courier services."
+        />
+        <meta
+            property="og:image"
+            content="https://luxenholdings.vercel.app/images/logo.png"
+        />
+        <meta property="og:url" content="https://luxenholdings.vercel.app/" />
+        <meta property="og:type" content="website" />
+
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:image"
+            content="https://luxenholdings.vercel.app/images/logo.png"
+        />
+
+        <link rel="preload" as="image" href="/images/heroimage.jpg" />
+
+        <!-- Google Font -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Tailwind CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="style.css" />
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+        <!-- JS -->
+        <script src="script.js" defer></script>
+    </head>
+    <body class="bg-white">
+        <!-- header -->
+        <section class="header">
+            <!-- ===== Navbar ===== -->
+            <header
+                id="navbar"
+                class="w-full fixed top-0 z-50 transition-all duration-300 bg-transparent animate-navbar"
+            >
+                <div class="flex items-center justify-between px-[5%] py-4">
+                    <!-- Logo -->
+                    <div class="flex items-center gap-2">
+                        <!-- href="#Home" -->
+                        <img
+                            onclick="window.location.href = '#Home'"
+                            src="/images/logo.png"
+                            class="w-20 h-auto"
+                        />
+
+                        <div class="text-lg">
+                            <a
+                                href="#Home"
+                                class="luxen font-normal text-gray-200 transition-colors duration-300"
+                            >
+                            </a>
+                            <a
+                                href="#Home"
+                                class="holdings font-semibold text-white transition-colors duration-300"
+                            >
+                                Holdings
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Desktop Nav -->
+                    <nav class="hidden lg:flex items-center gap-10">
+                        <a
+                            href="#Home"
+                            class="nav-link text-white font-medium hover:text-amber-600 transition-colors duration-300"
+                            >Home</a
+                        >
+                        <a
+                            href="#About"
+                            class="nav-link text-white font-medium hover:text-amber-600 transition-colors duration-300"
+                            >About</a
+                        >
+
+                        <!-- Portfolio Dropdown -->
+                        <div class="relative group">
+                            <a
+                                href="/portfolio.html"
+                                class="nav-link text-white font-medium hover:text-amber-600 transition-colors duration-300 flex items-center gap-1"
+                            >
+                                Subsidiaries
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="w-4 h-4 mt-1"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M19 9l-7 7-7-7"
+                                    />
+                                </svg>
+                            </a>
+
+                            <div
+                                class="absolute left-0 mt-3 w-61 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300"
+                            >
+                                <!-- Construction & Property -->
+                                <a
+                                    href="/portfolio.html#contracting"
+                                    class="rounded-lg block px-5 py-3 text-gray-700 hover:bg-amber-50 hover:text-amber-600 transition"
+                                >
+                                    Contracting & Real Estate
+                                </a>
+
+                                <a
+                                    href="/portfolio.html#Interiors"
+                                    class="rounded-lg block px-5 py-3 text-gray-700 hover:bg-amber-50 hover:text-amber-600 transition"
+                                >
+                                    Interiors & Fit-outs
+                                </a>
+
+                                <!-- Industrial Services -->
+                                <a
+                                    href="/portfolio.html#SandBlasting"
+                                    class="rounded-lg block px-5 py-3 text-gray-700 hover:bg-amber-50 hover:text-amber-600 transition"
+                                >
+                                    Sand Blasting & Painting
+                                </a>
+
+                                <!-- Transport & Logistics -->
+                                <a
+                                    href="/portfolio.html#Transport"
+                                    class="rounded-lg block px-5 py-3 text-gray-700 hover:bg-amber-50 hover:text-amber-600 transition"
+                                >
+                                    Transport Services
+                                </a>
+
+                                <a
+                                    href="/portfolio.html#Logistics"
+                                    class="rounded-lg block px-5 py-3 text-gray-700 hover:bg-amber-50 hover:text-amber-600 transition"
+                                >
+                                    Logistics Cargo Services
+                                </a>
+
+                                <a
+                                    href="/portfolio.html#Courier"
+                                    class="rounded-lg block px-5 py-3 text-gray-700 hover:bg-amber-50 hover:text-amber-600 transition"
+                                >
+                                    Express Courier Services
+                                </a>
+
+                                <!-- Technology -->
+                                <a
+                                    href="/portfolio.html#Technology"
+                                    class="rounded-lg block px-5 py-3 text-gray-700 hover:bg-amber-50 hover:text-amber-600 transition"
+                                >
+                                    Electronics & Computers
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- <a
+                            href="#Leadership"
+                            class="nav-link text-white font-medium hover:text-amber-600 transition-colors duration-300"
+                            >Leadership</a
+                        > -->
+                        <a
+                            href="#Careers"
+                            class="nav-link text-white font-medium hover:text-amber-600 transition-colors duration-300"
+                            >Careers</a
+                        >
+
+                        <!-- Contact Button -->
+                        <a
+                            href="#Contact"
+                            class="bg-gradient-to-r from-amber-500 to-yellow-600 hover:from-amber-600 hover:to-yellow-700 text-white hover:text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 transform hover:scale-110"
+                        >
+                            Contact Us
+                        </a>
+                    </nav>
+
+                    <!-- Hamburger -->
+                    <div
+                        id="hamburger"
+                        class="lg:hidden flex flex-col gap-1 cursor-pointer z-50"
+                    >
+                        <span
+                            class="w-6 h-[3px] rounded bg-white transition-colors duration-300"
+                        ></span>
+                        <span
+                            class="w-6 h-[3px] rounded bg-white transition-colors duration-300"
+                        ></span>
+                        <span
+                            class="w-6 h-[3px] rounded bg-white transition-colors duration-300"
+                        ></span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Overlay -->
+            <div
+                id="overlay"
+                class="fixed inset-0 bg-black/40 opacity-0 pointer-events-none transition-opacity duration-300 lg:hidden z-40"
+            ></div>
+
+            <!-- Mobile Sidebar -->
+            <div
+                id="mobileMenu"
+                class="fixed top-0 right-0 h-screen w-71 bg-white shadow-xl transform translate-x-full transition-transform duration-300 ease-in-out flex flex-col gap-6 p-8 lg:hidden z-50"
+            >
+                <a
+                    href="#Home"
+                    class="text-gray-700 font-medium hover:text-amber-600 transition-colors duration-300"
+                    >Home</a
+                >
+                <a
+                    href="#About"
+                    class="text-gray-700 font-medium hover:text-amber-600 transition-colors duration-300"
+                    >About</a
+                >
+
+                <!-- Mobile Portfolio Dropdown -->
+                <div>
+                    <button
+                        id="mobilePortfolioBtn"
+                        class="w-full text-left text-gray-700 font-medium hover:text-amber-600 transition-colors duration-300 flex items-center justify-between"
+                    >
+                        Subsidiaries
+                        <span>+</span>
+                    </button>
+
+                    <div
+                        id="mobilePortfolioMenu"
+                        class="hidden flex flex-col mt-3 ml-4 gap-3"
+                    >
+                        <a
+                            href="/portfolio.html#contracting"
+                            class="text-gray-600 hover:text-amber-600 transition"
+                        >
+                            Contracting & Real Estate
+                        </a>
+
+                        <a
+                            href="/portfolio.html#Interiors"
+                            class="text-gray-600 hover:text-amber-600 transition"
+                        >
+                            Interiors & Fit-outs
+                        </a>
+
+                        <a
+                            href="/portfolio.html#SandBlasting"
+                            class="text-gray-600 hover:text-amber-600 transition"
+                        >
+                            Sand Blasting & Painting
+                        </a>
+
+                        <a
+                            href="/portfolio.html#Transport"
+                            class="text-gray-600 hover:text-amber-600 transition"
+                        >
+                            Transport Services
+                        </a>
+
+                        <a
+                            href="/portfolio.html#Logistics"
+                            class="text-gray-600 hover:text-amber-600 transition"
+                        >
+                            Logistics Cargo Services
+                        </a>
+
+                        <a
+                            href="/portfolio.html#Courier"
+                            class="text-gray-600 hover:text-amber-600 transition"
+                        >
+                            Express Courier Services
+                        </a>
+
+                        <a
+                            href="/portfolio.html#Technology"
+                            class="text-gray-600 hover:text-amber-600 transition"
+                        >
+                            Electronics & Computers
+                        </a>
+                    </div>
+                </div>
+
+                <!-- <a
+                    href="#Leadership"
+                    class="text-gray-700 font-medium hover:text-amber-600 transition-colors duration-300"
+                    >Leadership</a
+                > -->
+                <a
+                    href="#Careers"
+                    class="text-gray-700 font-medium hover:text-amber-600 transition-colors duration-300"
+                    >Careers</a
+                >
+
+                <a
+                    href="#Contact"
+                    class="bg-gradient-to-r from-amber-500 to-yellow-600 hover:from-amber-600 hover:to-yellow-700 text-white hover:text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 transform hover:scale-110"
+                >
+                    Contact Us
+                </a>
+            </div>
+        </section>
+        <!-- Body -->
+        <section class="main-section h-full w-full">
+            <!-- Hero section -->
+            <div
+                id="Home"
+                class="relative z-10 min-h-[100vh] mx-auto w-full pt-[5em] pb-[5em] px-[5%] flex flex-col lg:flex-row items-start lg:items-center justify-around lg:justify-between gap-12 xl:gap-20"
+                style="
+                    background-image:
+                        linear-gradient(
+                            rgba(15, 23, 42, 0.85),
+                            rgba(15, 23, 42, 0.85)
+                        ),
+                        url(/images/heroimage.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                "
+            >
+                <!-- LEFT CONTENT -->
+                <div class="lg:w-[50%] text-white text-left hero-left">
+                    <span
+                        class="inline-block bg-gradient-to-r from-amber-400 to-yellow-500 text-slate-900 text-xs sm:text-sm font-semibold px-5 py-2 rounded-full mb-6 tracking-wide uppercase"
+                    >
+                        CORPORATE EXCELLENCE
+                    </span>
+
+                    <h1
+                        style="line-height: 1"
+                        class="text-5xl sm:text-6xl lg:text-7xl font-light text-white leading-tight mb-6"
+                    >
+                        <span class="font-extralight">Luxen</span><br />
+                        <span
+                            class="bg-gradient-to-r from-amber-400 to-yellow-500 font-bold bg-clip-text text-transparent"
+                        >
+                            Holdings
+                        </span>
+                    </h1>
+
+                    <h2
+                        class="text-2xl lg:text-3xl text-slate-300 font-light mb-6"
+                    >
+                        Building Excellence Across Industries
+                    </h2>
+
+                    <p class="text-lg text-slate-400 max-w-xl mb-10">
+                        A diversified parent company dedicated to innovation,
+                        quality, and trust — empowering our subsidiaries to
+                        deliver exceptional value across industries.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-4 sm:gap-6">
+                        <a
+                            href="#About"
+                            class="bg-gradient-to-r from-amber-500 to-yellow-600 hover:from-amber-600 hover:to-yellow-700 text-lg text-white font-medium px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-center transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl whitespace-nowrap"
+                        >
+                            Discover Our Vision
+                        </a>
+
+                        <a
+                            href="/portfolio.html"
+                            class="border-2 border-slate-300 text-slate-300 hover:bg-slate-300 hover:text-slate-900 px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-medium text-lg transition-all duration-300 text-center whitespace-nowrap"
+                        >
+                            Explore Portfolio
+                        </a>
+                    </div>
+                </div>
+
+                <!-- RIGHT STATS -->
+                <div
+                    class="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full lg:w-[50%] text-white hero-right"
+                >
+                    <div class="stat-card">
+                        <h3
+                            class="counter"
+                            style="
+                                font-size: 2em;
+                                font-weight: bold;
+                                color: #f59e0b;
+                                margin-bottom: 8px;
+                            "
+                            data-target="500"
+                            data-plus="true"
+                        >
+                            0
+                        </h3>
+                        <p>Projects Delivered</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3
+                            class="counter"
+                            style="
+                                font-size: 2em;
+                                font-weight: bold;
+                                color: #f59e0b;
+                                margin-bottom: 8px;
+                            "
+                            data-target="15"
+                            data-plus="true"
+                        >
+                            0
+                        </h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3
+                            class="counter"
+                            style="
+                                font-size: 2em;
+                                font-weight: bold;
+                                color: #f59e0b;
+                                margin-bottom: 8px;
+                            "
+                            data-target="50"
+                            data-plus="true"
+                        >
+                            0
+                        </h3>
+                        <p>Global Partners</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3
+                            class="counter"
+                            style="
+                                font-size: 2em;
+                                font-weight: bold;
+                                color: #f59e0b;
+                                margin-bottom: 8px;
+                            "
+                            data-target="7"
+                            data-plus="true"
+                        >
+                            0
+                        </h3>
+                        <p>Subsidiaries</p>
+                    </div>
+                </div>
+            </div>
+            <!-- About Section -->
+            <section
+                id="About"
+                class="px-[5%] py-18 bg-slate-50 overflow-hidden"
+            >
+                <!-- Top Badge -->
+                <div class="flex justify-center mb-6">
+                    <!--      -->
+                    <span
+                        class="bg-gradient-to-r whitespace-nowrap from-amber-500 to-yellow-600 text-white text-sm px-4 py-2 rounded-full font-semibold tracking-wide uppercase"
+                    >
+                        ABOUT LUXEN HOLDINGS
+                    </span>
+                </div>
+
+                <!-- Main Heading -->
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <!--    -->
+                    <h2
+                        class="text-4xl lg:text-6xl font-light text-slate-800 mb-6"
+                    >
+                        Corporate
+                        <!--  -->
+                        <span class="font-bold text-amber-600">Excellence</span>
+                    </h2>
+                    <!--  mb-8 -->
+
+                    <div
+                        class="w-24 h-0.5 bg-gradient-to-r from-amber-500 to-yellow-600 mx-auto my-4 rounded-full"
+                    ></div>
+
+                    <p
+                        class="text-xl mt-8 text-slate-600 max-w-3xl mx-auto leading-relaxed"
+                    >
+                        Luxen Holdings operates as a premier parent entity,
+                        orchestrating a diverse portfolio of subsidiaries
+                        through strategic oversight, operational synergy, and
+                        unwavering commitment to excellence.
+                    </p>
+                </div>
+                <!-- Content Grid -->
+                <div class="grid lg:grid-cols-2 gap-14 items-center">
+                    <!-- LEFT SIDE -->
+                    <div>
+                        <h3 class="text-3xl font-light text-slate-800 mb-4">
+                            Our
+                            <span class="font-semibold">Strategic Vision</span>
+                        </h3>
+
+                        <p class="text-lg text-slate-600 mt-5 leading-relaxed">
+                            We transcend traditional holding company models by
+                            fostering deep operational integration, ensuring
+                            quality assurance across all ventures, and driving
+                            strategic expansion that creates sustainable value
+                            for stakeholders.
+                        </p>
+
+                        <p class="text-lg text-slate-600 mt-5 leading-relaxed">
+                            Our methodology encompasses rigorous governance
+                            frameworks, innovative solution development, and
+                            unwavering reliability standards that position each
+                            subsidiary for market leadership in their respective
+                            domains.
+                        </p>
+
+                        <!-- Feature Cards -->
+                        <div class="grid sm:grid-cols-2 mt-8 gap-6">
+                            <!-- Card 1 -->
+                            <div
+                                class="bg-white h-full rounded-xl p-6 shadow-sm border border-slate-200"
+                            >
+                                <div
+                                    class="w-12 h-12 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-lg flex items-center justify-center mb-4"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="white"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-trophy-icon lucide-trophy"
+                                    >
+                                        <path
+                                            d="M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978"
+                                        />
+                                        <path
+                                            d="M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978"
+                                        />
+                                        <path d="M18 9h1.5a1 1 0 0 0 0-5H18" />
+                                        <path d="M4 22h16" />
+                                        <path
+                                            d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z"
+                                        />
+                                        <path d="M6 9H4.5a1 1 0 0 1 0-5H6" />
+                                    </svg>
+                                </div>
+                                <h4 class="font-semibold text-slate-800 mb-2">
+                                    Excellence
+                                </h4>
+                                <p class="text-sm text-slate-600">
+                                    Uncompromising quality standards across all
+                                    operations
+                                </p>
+                            </div>
+                            <!-- Card 2 -->
+                            <div
+                                class="bg-white h-full rounded-xl p-6 shadow-sm border border-slate-200"
+                            >
+                                <div
+                                    class="w-12 h-12 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-lg flex items-center justify-center mb-4"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="white"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-lightbulb-icon lucide-lightbulb"
+                                    >
+                                        <path
+                                            d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"
+                                        />
+                                        <path d="M9 18h6" />
+                                        <path d="M10 22h4" />
+                                    </svg>
+                                </div>
+                                <h4 class="font-semibold text-slate-800 mb-2">
+                                    Innovation
+                                </h4>
+                                <p class="text-sm text-slate-600">
+                                    Forward-thinking solutions for complex
+                                    challenges
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT SIDE -->
+                    <div class="relative">
+                        <div
+                            class="relative overflow-hidden rounded-2xl shadow-2xl"
+                        >
+                            <img
+                                alt="Luxen Holdings executive leadership and corporate governance"
+                                title="Luxen Holdings - Strategic Leadership and Corporate Excellence"
+                                class="w-full h-96 object-cover"
+                                src="/images/aboutimage.jpg"
+                            />
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-slate-900/30 to-transparent"
+                            ></div>
+                        </div>
+                        <div
+                            class="absolute -bottom-6 -right-6 bg-white rounded-xl p-6 shadow-xl border border-slate-200"
+                        >
+                            <div class="text-center">
+                                <div
+                                    class="text-2xl font-bold text-amber-600 mb-1"
+                                >
+                                    ISO 9001
+                                </div>
+                                <div class="text-sm text-slate-600">
+                                    Certified Excellence
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- core value -->
+                <div
+                    class="bg-white mt-20 rounded-2xl p-12 shadow-lg border border-slate-200"
+                >
+                    <div class="text-center mb-12">
+                        <h3 class="text-3xl font-light text-slate-800 mb-4">
+                            Our <span class="font-semibold">Core Values</span>
+                        </h3>
+                        <p class="text-lg text-slate-600 max-w-3xl mx-auto">
+                            These fundamental principles guide every decision
+                            and drive our commitment to sustainable growth and
+                            stakeholder value creation.
+                        </p>
+                    </div>
+                    <div class="grid md:grid-cols-3 gap-8">
+                        <div class="text-center group">
+                            <div
+                                class="w-16 h-16 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="white"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-shield-check-icon lucide-shield-check"
+                                >
+                                    <path
+                                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                                    />
+                                    <path d="m9 12 2 2 4-4" />
+                                </svg>
+                            </div>
+                            <h4
+                                class="text-xl font-semibold text-slate-800 mb-3"
+                            >
+                                Integrity
+                            </h4>
+                            <p class="text-slate-600 leading-relaxed">
+                                Unwavering ethical standards and transparent
+                                business practices in all our operations and
+                                partnerships.
+                            </p>
+                        </div>
+                        <div class="text-center group">
+                            <div
+                                class="w-16 h-16 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="white"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-users-icon lucide-users"
+                                >
+                                    <path
+                                        d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"
+                                    />
+                                    <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                                    <circle cx="9" cy="7" r="4" />
+                                </svg>
+                            </div>
+                            <h4
+                                class="text-xl font-semibold text-slate-800 mb-3"
+                            >
+                                Collaboration
+                            </h4>
+                            <p class="text-slate-600 leading-relaxed">
+                                Fostering synergistic relationships across
+                                subsidiaries to maximize collective potential
+                                and market impact.
+                            </p>
+                        </div>
+                        <div class="text-center group">
+                            <div
+                                class="w-16 h-16 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="white"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-chart-no-axes-combined-icon lucide-chart-no-axes-combined"
+                                >
+                                    <path d="M12 16v5" />
+                                    <path d="M16 14v7" />
+                                    <path d="M20 10v11" />
+                                    <path
+                                        d="m22 3-8.646 8.646a.5.5 0 0 1-.708 0L9.354 8.354a.5.5 0 0 0-.707 0L2 15"
+                                    />
+                                    <path d="M4 18v3" />
+                                    <path d="M8 14v7" />
+                                </svg>
+                            </div>
+                            <h4
+                                class="text-xl font-semibold text-slate-800 mb-3"
+                            >
+                                Growth
+                            </h4>
+                            <p class="text-slate-600 leading-relaxed">
+                                Strategic expansion and continuous improvement
+                                that creates lasting value for all stakeholders.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Achievements section -->
+            <section class="px-[5%] py-16 bg-gray-800">
+                <div class="max-w-7xl mx-auto">
+                    <div class="text-center mb-12">
+                        <h2
+                            class="text-3xl md:text-4xl font-bold text-white mb-4"
+                        >
+                            Certifications &amp;
+                            <span class="text-yellow-400">Achievements</span>
+                        </h2>
+                        <p class="text-gray-300 max-w-2xl mx-auto">
+                            Our commitment to excellence is recognized through
+                            industry certifications and quality standards across
+                            all our subsidiaries.
+                        </p>
+                    </div>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div
+                            class="bg-gray-700 rounded-lg p-6 text-center hover:bg-gray-600 transition-colors duration-300"
+                        >
+                            <div
+                                class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="white"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-award-icon lucide-award"
+                                >
+                                    <path
+                                        d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"
+                                    />
+                                    <circle cx="12" cy="8" r="6" />
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-white mb-2">
+                                ISO 9001:2015
+                            </h3>
+                            <p class="text-gray-300">
+                                Quality Management
+                            </p>
+                        </div>
+                        <div
+                            class="bg-gray-700 rounded-lg p-6 text-center hover:bg-gray-600 transition-colors duration-300"
+                        >
+                           <div
+                                class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="white"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-globe-icon lucide-globe"
+                                >
+                                    <circle cx="12" cy="12" r="10" />
+                                    <path
+                                        d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"
+                                    />
+                                    <path d="M2 12h20" />
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-white mb-2">
+                               QRS Certification
+                            </h3>
+                            <p class="text-gray-300">
+                               Quality Registrar Systems
+                            </p>
+                        </div>
+                        <div
+                            class="bg-gray-700 rounded-lg p-6 text-center hover:bg-gray-600 transition-colors duration-300"
+                        >
+                            <div
+                                class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="white"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-shield-check-icon lucide-shield-check"
+                                >
+                                    <path
+                                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                                    />
+                                    <path d="m9 12 2 2 4-4" />
+                                </svg>
+                                
+                            </div>
+                            <h3 class="text-xl font-semibold text-white mb-2">
+                                ORS Certification
+                            </h3>
+                            <p class="text-gray-300">
+                               International Certification
+                            </p>
+                        </div>
+                        <div
+                            class="bg-gray-700 rounded-lg p-6 text-center hover:bg-gray-600 transition-colors duration-300"
+                        >
+                            <div
+                                class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4"
+                            >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-white mb-2">
+                               ASCB(E)
+                            </h3>
+                            <p class="text-gray-300">
+                                Accredited Certification Body
+                            </p>
+                        </div>
+                        <div
+                            class="bg-gray-700 rounded-lg p-6 text-center hover:bg-gray-600 transition-colors duration-300"
+                        >
+                            <div
+                                class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4"
+                            >
+                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-badge-check-icon lucide-badge-check"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m9 12 2 2 4-4"/></svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-white mb-2">
+                               ICV Certified
+                            </h3>
+                            <p class="text-gray-300">
+                                In-Country Value
+                            </p>
+                        </div>
+                        <div
+                            class="bg-gray-700 rounded-lg p-6 text-center hover:bg-gray-600 transition-colors duration-300"
+                        >
+                            <div
+                                class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4"
+                            >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-check-icon lucide-user-round-check"><path d="M2 21a8 8 0 0 1 13.292-6"/><circle cx="10" cy="8" r="5"/><path d="m16 19 2 2 4-4"/></svg>
+                            </div>
+                            <h3 class="text-xl font-semibold text-white mb-2">
+                                Customer Satisfaction
+                            </h3>
+                            <p class="text-gray-300">
+                                100% Client Retention
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--   leadership section -->
+            <!-- <section id="Leadership" class="px-[5%] py-24 bg-slate-50">
+                <div class="max-w-7xl mx-auto">
+                    <div hidden class="text-center mb-20">
+                        <div class="inline-block mb-6">
+                            <span
+                                class="bg-gradient-to-r from-amber-500 to-yellow-600 text-white px-4 py-2 rounded-full text-sm font-semibold tracking-wide uppercase"
+                                >Executive Leadership</span
+                            >
+                        </div>
+                        <h2
+                            class="text-4xl lg:text-6xl font-light text-slate-800 mb-6"
+                        >
+                            Visionary
+                            <span class="font-bold text-amber-600"
+                                >Leadership</span
+                            >
+                        </h2>
+                        <div
+                            class="w-24 h-0.5 bg-gradient-to-r from-amber-500 to-yellow-600 mx-auto mb-8"
+                        ></div>
+                        <p
+                            class="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed"
+                        >
+                            Our executive team combines decades of industry
+                            expertise with a shared commitment to excellence,
+                            driving strategic innovation and sustainable growth
+                            across our diversified portfolio.
+                        </p>
+                    </div>
+                    <div hidden class="grid lg:grid-cols-3 gap-8 mb-16">
+                        <article
+                            class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-slate-200"
+                        >
+                            <div class="relative h-80 overflow-hidden">
+                                <img
+                                    alt="Michael Chen - Co-Founder &amp; Chief Executive Officer at Luxen Holdings"
+                                    title="Michael Chen - Executive Leadership"
+                                    class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500"
+                                    src="/images/leadership1.jpg"
+                                />
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"
+                                ></div>
+                                <div class="absolute bottom-6 left-6 right-6">
+                                    <div
+                                        class="bg-white/90 backdrop-blur-sm rounded-lg p-3"
+                                    >
+                                        <div
+                                            class="text-sm font-semibold text-slate-800"
+                                        >
+                                            20+ Years
+                                        </div>
+                                        <div class="text-xs text-slate-600">
+                                            Experience
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-8">
+                                <div class="mb-6">
+                                    <h3
+                                        class="text-2xl font-light text-slate-800 mb-2"
+                                    >
+                                        <span class="font-semibold"
+                                            >Michael Chen</span
+                                        >
+                                    </h3>
+                                    <p
+                                        class="text-amber-600 font-medium text-sm uppercase tracking-wide"
+                                    >
+                                        Co-Founder &amp; Chief Executive Officer
+                                    </p>
+                                </div>
+                                <p class="text-slate-600 leading-relaxed mb-6">
+                                    Michael brings over two decades of strategic
+                                    leadership in corporate development and
+                                    operational excellence. His visionary
+                                    approach has positioned Luxen Holdings as a
+                                    premier diversified enterprise, driving
+                                    sustainable growth and market leadership
+                                    across all subsidiaries.
+                                </p>
+                                <div class="mb-6">
+                                    <h4
+                                        class="font-semibold text-slate-800 mb-3 text-sm uppercase tracking-wide"
+                                    >
+                                        Core Expertise
+                                    </h4>
+                                    <div class="grid grid-cols-2 gap-2">
+                                        <div
+                                            class="flex items-center space-x-2"
+                                        >
+                                            <div
+                                                class="w-1.5 h-1.5 bg-amber-500 rounded-full"
+                                            ></div>
+                                            <span class="text-sm text-slate-600"
+                                                >Strategic Planning</span
+                                            >
+                                        </div>
+                                        <div
+                                            class="flex items-center space-x-2"
+                                        >
+                                            <div
+                                                class="w-1.5 h-1.5 bg-amber-500 rounded-full"
+                                            ></div>
+                                            <span class="text-sm text-slate-600"
+                                                >Corporate Development</span
+                                            >
+                                        </div>
+                                        <div
+                                            class="flex items-center space-x-2"
+                                        >
+                                            <div
+                                                class="w-1.5 h-1.5 bg-amber-500 rounded-full"
+                                            ></div>
+                                            <span class="text-sm text-slate-600"
+                                                >M&amp;A Strategy</span
+                                            >
+                                        </div>
+                                        <div
+                                            class="flex items-center space-x-2"
+                                        >
+                                            <div
+                                                class="w-1.5 h-1.5 bg-amber-500 rounded-full"
+                                            ></div>
+                                            <span class="text-sm text-slate-600"
+                                                >Leadership</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center justify-between pt-4 border-t border-slate-200"
+                                >
+                                    <a
+                                        href="#"
+                                        class="inline-flex items-center text-amber-600 hover:text-amber-700 font-medium transition-colors duration-300 text-sm"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="lucide lucide-linkedin-icon lucide-linkedin text-amber-600 hover:text-amber-700 mr-[5px]"
+                                        >
+                                            <path
+                                                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                                            />
+                                            <rect
+                                                width="4"
+                                                height="12"
+                                                x="2"
+                                                y="9"
+                                            />
+                                            <circle cx="4" cy="4" r="2" />
+                                        </svg>
+                                        <span class="my-auto"> Connect </span>
+                                    </a>
+                                    <div class="flex space-x-2">
+                                        <div
+                                            class="w-8 h-8 bg-slate-100 hover:bg-amber-100 rounded-lg flex items-center justify-center transition-colors duration-300 cursor-pointer"
+                                        >
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="18"
+                                                height="18"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-mail-icon lucide-mail text-slate-600 hover:text-amber-600"
+                                            >
+                                                <path
+                                                    d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                                                />
+                                                <rect
+                                                    x="2"
+                                                    y="4"
+                                                    width="20"
+                                                    height="16"
+                                                    rx="2"
+                                                />
+                                            </svg>
+                                        </div>
+                                        <div
+                                            class="w-8 h-8 bg-slate-100 hover:bg-amber-100 rounded-lg flex items-center justify-center transition-colors duration-300 cursor-pointer"
+                                        >
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="18"
+                                                height="18"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-phone-icon lucide-phone text-slate-600 hover:text-amber-600"
+                                            >
+                                                <path
+                                                    d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                                                />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article
+                            class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-slate-200"
+                        >
+                            <div class="relative h-80 overflow-hidden">
+                                <img
+                                    alt="Sarah Rodriguez - Co-Founder &amp; Chief Operating Officer at Luxen Holdings"
+                                    title="Sarah Rodriguez - Executive Leadership"
+                                    class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500"
+                                    src="/images/leadership2.jpg"
+                                />
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"
+                                ></div>
+                                <div class="absolute bottom-6 left-6 right-6">
+                                    <div
+                                        class="bg-white/90 backdrop-blur-sm rounded-lg p-3"
+                                    >
+                                        <div
+                                            class="text-sm font-semibold text-slate-800"
+                                        >
+                                            18+ Years
+                                        </div>
+                                        <div class="text-xs text-slate-600">
+                                            Experience
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-8">
+                                <div class="mb-6">
+                                    <h3
+                                        class="text-2xl font-light text-slate-800 mb-2"
+                                    >
+                                        <span class="font-semibold"
+                                            >Sarah Rodriguez</span
+                                        >
+                                    </h3>
+                                    <p
+                                        class="text-amber-600 font-medium text-sm uppercase tracking-wide"
+                                    >
+                                        Co-Founder &amp; Chief Operating Officer
+                                    </p>
+                                </div>
+                                <p class="text-slate-600 leading-relaxed mb-6">
+                                    Sarah's expertise in operational excellence
+                                    and quality management ensures seamless
+                                    integration across our subsidiary portfolio.
+                                    Her systematic approach to process
+                                    optimization and performance management
+                                    drives operational synergy and maintains our
+                                    industry-leading standards.
+                                </p>
+                                <div class="mb-6">
+                                    <h4
+                                        class="font-semibold text-slate-800 mb-3 text-sm uppercase tracking-wide"
+                                    >
+                                        Core Expertise
+                                    </h4>
+                                    <div class="grid grid-cols-2 gap-2">
+                                        <div
+                                            class="flex items-center space-x-2"
+                                        >
+                                            <div
+                                                class="w-1.5 h-1.5 bg-amber-500 rounded-full"
+                                            ></div>
+                                            <span class="text-sm text-slate-600"
+                                                >Operations Management</span
+                                            >
+                                        </div>
+                                        <div
+                                            class="flex items-center space-x-2"
+                                        >
+                                            <div
+                                                class="w-1.5 h-1.5 bg-amber-500 rounded-full"
+                                            ></div>
+                                            <span class="text-sm text-slate-600"
+                                                >Quality Assurance</span
+                                            >
+                                        </div>
+                                        <div
+                                            class="flex items-center space-x-2"
+                                        >
+                                            <div
+                                                class="w-1.5 h-1.5 bg-amber-500 rounded-full"
+                                            ></div>
+                                            <span class="text-sm text-slate-600"
+                                                >Process Optimization</span
+                                            >
+                                        </div>
+                                        <div
+                                            class="flex items-center space-x-2"
+                                        >
+                                            <div
+                                                class="w-1.5 h-1.5 bg-amber-500 rounded-full"
+                                            ></div>
+                                            <span class="text-sm text-slate-600"
+                                                >Team Leadership</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center justify-between pt-4 border-t border-slate-200"
+                                >
+                                    <a
+                                        href="#"
+                                        class="inline-flex items-center text-amber-600 hover:text-amber-700 font-medium transition-colors duration-300 text-sm"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="lucide lucide-linkedin-icon lucide-linkedin text-amber-600 hover:text-amber-700 mr-[5px]"
+                                        >
+                                            <path
+                                                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                                            />
+                                            <rect
+                                                width="4"
+                                                height="12"
+                                                x="2"
+                                                y="9"
+                                            />
+                                            <circle cx="4" cy="4" r="2" />
+                                        </svg>
+                                        <span class="my-auto"> Connect </span>
+                                    </a>
+                                    <div class="flex space-x-2">
+                                        <div
+                                            class="w-8 h-8 bg-slate-100 hover:bg-amber-100 rounded-lg flex items-center justify-center transition-colors duration-300 cursor-pointer"
+                                        >
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="18"
+                                                height="18"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-mail-icon lucide-mail text-slate-600 hover:text-amber-600"
+                                            >
+                                                <path
+                                                    d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                                                />
+                                                <rect
+                                                    x="2"
+                                                    y="4"
+                                                    width="20"
+                                                    height="16"
+                                                    rx="2"
+                                                />
+                                            </svg>
+                                        </div>
+                                        <div
+                                            class="w-8 h-8 bg-slate-100 hover:bg-amber-100 rounded-lg flex items-center justify-center transition-colors duration-300 cursor-pointer"
+                                        >
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="18"
+                                                height="18"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-phone-icon lucide-phone text-slate-600 hover:text-amber-600"
+                                            >
+                                                <path
+                                                    d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                                                />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article
+                            class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-slate-200"
+                        >
+                            <div class="relative h-80 overflow-hidden">
+                                <img
+                                    alt="David Thompson - Co-Founder &amp; Chief Financial Officer at Luxen Holdings"
+                                    title="David Thompson - Executive Leadership"
+                                    class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500"
+                                    src="/images/leadership3.jpg"
+                                />
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"
+                                ></div>
+                                <div class="absolute bottom-6 left-6 right-6">
+                                    <div
+                                        class="bg-white/90 backdrop-blur-sm rounded-lg p-3"
+                                    >
+                                        <div
+                                            class="text-sm font-semibold text-slate-800"
+                                        >
+                                            22+ Years
+                                        </div>
+                                        <div class="text-xs text-slate-600">
+                                            Experience
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-8">
+                                <div class="mb-6">
+                                    <h3
+                                        class="text-2xl font-light text-slate-800 mb-2"
+                                    >
+                                        <span class="font-semibold"
+                                            >David Thompson</span
+                                        >
+                                    </h3>
+                                    <p
+                                        class="text-amber-600 font-medium text-sm uppercase tracking-wide"
+                                    >
+                                        Co-Founder &amp; Chief Financial Officer
+                                    </p>
+                                </div>
+                                <p class="text-slate-600 leading-relaxed mb-6">
+                                    David's analytical expertise and financial
+                                    acumen drive strategic investment decisions
+                                    and capital allocation across the Luxen
+                                    Holdings portfolio. His comprehensive
+                                    approach to financial strategy ensures
+                                    sustainable profitability and strategic
+                                    growth opportunities.
+                                </p>
+                                <div class="mb-6">
+                                    <h4
+                                        class="font-semibold text-slate-800 mb-3 text-sm uppercase tracking-wide"
+                                    >
+                                        Core Expertise
+                                    </h4>
+                                    <div class="grid grid-cols-2 gap-2">
+                                        <div
+                                            class="flex items-center space-x-2"
+                                        >
+                                            <div
+                                                class="w-1.5 h-1.5 bg-amber-500 rounded-full"
+                                            ></div>
+                                            <span class="text-sm text-slate-600"
+                                                >Financial Strategy</span
+                                            >
+                                        </div>
+                                        <div
+                                            class="flex items-center space-x-2"
+                                        >
+                                            <div
+                                                class="w-1.5 h-1.5 bg-amber-500 rounded-full"
+                                            ></div>
+                                            <span class="text-sm text-slate-600"
+                                                >Investment Analysis</span
+                                            >
+                                        </div>
+                                        <div
+                                            class="flex items-center space-x-2"
+                                        >
+                                            <div
+                                                class="w-1.5 h-1.5 bg-amber-500 rounded-full"
+                                            ></div>
+                                            <span class="text-sm text-slate-600"
+                                                >Risk Management</span
+                                            >
+                                        </div>
+                                        <div
+                                            class="flex items-center space-x-2"
+                                        >
+                                            <div
+                                                class="w-1.5 h-1.5 bg-amber-500 rounded-full"
+                                            ></div>
+                                            <span class="text-sm text-slate-600"
+                                                >Capital Markets</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center justify-between pt-4 border-t border-slate-200"
+                                >
+                                    <a
+                                        href="#"
+                                        class="inline-flex items-center text-amber-600 hover:text-amber-700 font-medium transition-colors duration-300 text-sm"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="lucide lucide-linkedin-icon lucide-linkedin text-amber-600 hover:text-amber-700 mr-[5px]"
+                                        >
+                                            <path
+                                                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                                            />
+                                            <rect
+                                                width="4"
+                                                height="12"
+                                                x="2"
+                                                y="9"
+                                            />
+                                            <circle cx="4" cy="4" r="2" />
+                                        </svg>
+                                        <span class="my-auto"> Connect </span>
+                                    </a>
+                                    <div class="flex space-x-2">
+                                        <div
+                                            class="w-8 h-8 bg-slate-100 hover:bg-amber-100 rounded-lg flex items-center justify-center transition-colors duration-300 cursor-pointer"
+                                        >
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="18"
+                                                height="18"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-mail-icon lucide-mail text-slate-600 hover:text-amber-600"
+                                            >
+                                                <path
+                                                    d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                                                />
+                                                <rect
+                                                    x="2"
+                                                    y="4"
+                                                    width="20"
+                                                    height="16"
+                                                    rx="2"
+                                                />
+                                            </svg>
+                                        </div>
+                                        <div
+                                            class="w-8 h-8 bg-slate-100 hover:bg-amber-100 rounded-lg flex items-center justify-center transition-colors duration-300 cursor-pointer"
+                                        >
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="18"
+                                                height="18"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-phone-icon lucide-phone text-slate-600 hover:text-amber-600"
+                                            >
+                                                <path
+                                                    d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                                                />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div
+                        class="bg-white rounded-2xl p-12 shadow-lg border border-slate-200"
+                    >
+                        <div class="text-center mb-12">
+                            <h3 class="text-3xl font-light text-slate-800 mb-6">
+                                Leadership
+                                <span class="font-semibold">Philosophy</span>
+                            </h3>
+                            <div class="max-w-4xl mx-auto">
+                                <blockquote
+                                    class="text-xl text-slate-600 leading-relaxed italic mb-8"
+                                >
+                                    "Our unified commitment to excellence,
+                                    integrity, and innovation drives every
+                                    strategic decision. We believe in creating
+                                    sustainable value that extends beyond
+                                    financial returns—encompassing stakeholder
+                                    prosperity, employee development, and
+                                    community impact."
+                                </blockquote>
+                                <div class="text-center">
+                                    <div
+                                        class="text-lg font-semibold text-slate-800"
+                                    >
+                                        Collective Leadership Team
+                                    </div>
+                                    <div class="text-amber-600 font-medium">
+                                        Luxen Holdings
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid md:grid-cols-3 gap-8">
+                            <div class="text-center">
+                                <div
+                                    class="w-16 h-16 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="white"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-eye-icon lucide-eye"
+                                    >
+                                        <path
+                                            d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"
+                                        />
+                                        <circle cx="12" cy="12" r="3" />
+                                    </svg>
+                                </div>
+                                <h4
+                                    class="text-xl font-semibold text-slate-800 mb-3"
+                                >
+                                    Strategic Vision
+                                </h4>
+                                <p class="text-slate-600 leading-relaxed">
+                                    Forward-thinking leadership that anticipates
+                                    market trends and positions our subsidiaries
+                                    for sustained competitive advantage.
+                                </p>
+                            </div>
+                            <div class="text-center">
+                                <div
+                                    class="w-16 h-16 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="white"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-users-icon lucide-users"
+                                    >
+                                        <path
+                                            d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"
+                                        />
+                                        <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+                                        <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                                        <circle cx="9" cy="7" r="4" />
+                                    </svg>
+                                </div>
+                                <h4
+                                    class="text-xl font-semibold text-slate-800 mb-3"
+                                >
+                                    Collaborative Excellence
+                                </h4>
+                                <p class="text-slate-600 leading-relaxed">
+                                    Fostering synergistic relationships across
+                                    our portfolio to maximize collective
+                                    potential and operational efficiency.
+                                </p>
+                            </div>
+                            <div class="text-center">
+                                <div
+                                    class="w-16 h-16 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="white"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-award-icon lucide-award"
+                                    >
+                                        <path
+                                            d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"
+                                        />
+                                        <circle cx="12" cy="8" r="6" />
+                                    </svg>
+                                </div>
+                                <h4
+                                    class="text-xl font-semibold text-slate-800 mb-3"
+                                >
+                                    Performance Excellence
+                                </h4>
+                                <p class="text-slate-600 leading-relaxed">
+                                    Maintaining the highest standards of
+                                    operational performance while driving
+                                    continuous improvement and innovation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section> -->
+            <!-- join our team -->
+            <section id="Careers" class="px-[5%] py-20 bg-white">
+                <div class="max-w-7xl mx-auto">
+                    <div class="text-center mb-16">
+                        <h2
+                            class="text-4xl md:text-5xl font-bold text-gray-800 mb-6"
+                        >
+                            Join Our <span class="text-yellow-600">Team</span>
+                        </h2>
+                        <div class="w-24 h-1 bg-yellow-500 mx-auto mb-8"></div>
+                        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                            We're always looking for talented professionals who
+                            share our commitment to excellence and want to be
+                            part of our growing success story.
+                        </p>
+                    </div>
+                    <div class="grid lg:grid-cols-2 gap-12 items-start">
+                        <div>
+                            <h3 class="text-3xl font-bold text-gray-800 mb-6">
+                                Why Choose Luxen Holdings?
+                            </h3>
+                            <p
+                                class="text-lg text-gray-600 mb-8 leading-relaxed"
+                            >
+                                At Luxen Holdings, we believe our people are our
+                                greatest asset. We foster an environment where
+                                innovation thrives, careers flourish, and every
+                                team member contributes to our collective
+                                success across all subsidiaries.
+                            </p>
+                            <div class="space-y-6">
+                                <div class="flex items-center space-x-4">
+                                    <div
+                                        class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center flex-shrink-0"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="18"
+                                            height="18"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="lucide lucide-heart-icon lucide-heart text-yellow-600"
+                                        >
+                                            <path
+                                                d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4
+                                            class="text-xl font-semibold text-gray-800 mb-2"
+                                        >
+                                            Comprehensive Benefits
+                                        </h4>
+                                        <!-- <p class="text-gray-600">
+                                            Health, dental, vision insurance and
+                                            wellness programs
+                                        </p> -->
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-4">
+                                    <div
+                                        class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center flex-shrink-0"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="18"
+                                            height="18"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="lucide lucide-graduation-cap-icon lucide-graduation-cap text-yellow-600"
+                                        >
+                                            <path
+                                                d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"
+                                            />
+                                            <path d="M22 10v6" />
+                                            <path
+                                                d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4
+                                            class="text-xl font-semibold text-gray-800 mb-2"
+                                        >
+                                            Professional Development
+                                        </h4>
+                                        <!-- <p class="text-gray-600">
+                                            Continuous learning opportunities
+                                            and career advancement
+                                        </p> -->
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-4">
+                                    <div
+                                        class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center flex-shrink-0"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="18"
+                                            height="18"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="lucide lucide-clock3-icon lucide-clock-3 text-yellow-600"
+                                        >
+                                            <circle cx="12" cy="12" r="10" />
+                                            <path d="M12 6v6h4" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4
+                                            class="text-xl font-semibold text-gray-800 mb-2"
+                                        >
+                                            Work-Life Balance
+                                        </h4>
+                                        <!-- <p class="text-gray-600">
+                                            Flexible schedules and remote work
+                                            options
+                                        </p> -->
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-4">
+                                    <div
+                                        class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center flex-shrink-0"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="18"
+                                            height="18"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="lucide lucide-users-icon lucide-users text-yellow-600"
+                                        >
+                                            <path
+                                                d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"
+                                            />
+                                            <path
+                                                d="M16 3.128a4 4 0 0 1 0 7.744"
+                                            />
+                                            <path
+                                                d="M22 21v-2a4 4 0 0 0-3-3.87"
+                                            />
+                                            <circle cx="9" cy="7" r="4" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4
+                                            class="text-xl font-semibold text-gray-800 mb-2"
+                                        >
+                                            Collaborative Culture
+                                        </h4>
+                                        <!-- <p class="text-gray-600">
+                                            Inclusive environment that values
+                                            diversity and innovation
+                                        </p> -->
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="bg-gray-50 rounded-xl p-8">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-6">
+                                Submit Your Application
+                            </h3>
+                            <form id="careers-form">
+                                <div class="grid md:grid-cols-2 gap-4 mb-4">
+                                    <div>
+                                        <label
+                                            for="fullName"
+                                            class="block text-sm font-medium text-gray-700 mb-2"
+                                            >Full Name *</label
+                                        ><input
+                                            id="fullName"
+                                            required=""
+                                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-transparent text-sm"
+                                            placeholder="Your full name"
+                                            type="text"
+                                            value=""
+                                            name="name"
+                                        />
+                                    </div>
+                                    <div>
+                                        <label
+                                            for="email"
+                                            class="block text-sm font-medium text-gray-700 mb-2"
+                                            >Email Address *</label
+                                        ><input
+                                            id="email"
+                                            required=""
+                                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-transparent text-sm"
+                                            placeholder="your.email@example.com"
+                                            type="email"
+                                            value=""
+                                            name="email"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="grid md:grid-cols-2 gap-4 mb-4">
+                                    <div>
+                                        <label
+                                            for="phone"
+                                            class="block text-sm font-medium text-gray-700 mb-2"
+                                            >Phone Number</label
+                                        ><input
+                                            id="phone"
+                                            required=""
+                                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-transparent text-sm"
+                                            placeholder="Your phone number
+                                            type="tel"
+                                            value=""
+                                            name="phone"
+                                        />
+                                    </div>
+                                    <div>
+                                        <label
+                                            for="position"
+                                            class="block text-sm font-medium text-gray-700 mb-2"
+                                            >Position of Interest *</label
+                                        ><select
+                                            id="position"
+                                            name="interest"
+                                            required=""
+                                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-transparent text-sm pr-8"
+                                        >
+                                            <option value="">
+                                                Select a position
+                                            </option>
+                                            <option value="project-manager">
+                                                Project Manager
+                                            </option>
+                                            <option
+                                                value="electronics-specialist"
+                                            >
+                                                Electronics Trading Specialist
+                                            </option>
+                                            <option
+                                                value="logistics-coordinator"
+                                            >
+                                                Logistics Coordinator
+                                            </option>
+                                            <option value="customer-service">
+                                                Customer Service Representative
+                                            </option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <label
+                                        for="experience"
+                                        class="block text-sm font-medium text-gray-700 mb-2"
+                                        >Years of Experience</label
+                                    ><select
+                                        id="experience"
+                                        name="experience"
+                                        required=""
+                                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-transparent text-sm pr-8"
+                                    >
+                                        <option value="">
+                                            Select experience level
+                                        </option>
+                                        <option value="0-2 years">
+                                            0-2 years
+                                        </option>
+                                        <option value="3-5 years">
+                                            3-5 years
+                                        </option>
+                                        <option value="6-10 years">
+                                            6-10 years
+                                        </option>
+                                        <option value="10+ years">
+                                            10+ years
+                                        </option>
+                                    </select>
+                                </div>
+                                <div class="mb-6">
+                                    <label
+                                        for="coverLetter"
+                                        class="block text-sm font-medium text-gray-700 mb-2"
+                                        >Cover Letter / Message</label
+                                    ><textarea
+                                        id="coverLetter"
+                                        name="message"
+                                        required=""
+                                        rows="4"
+                                        maxlength="500"
+                                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-transparent text-sm resize-none"
+                                        placeholder="Tell us why you'd like to join Luxen Holdings..."
+                                    ></textarea>
+                                    <p class="text-xs text-gray-500 mt-1">
+                                        0/500 characters
+                                    </p>
+                                </div>
+                                <button
+                                    type="submit"
+                                    class="w-full bg-yellow-500 hover:bg-yellow-600 disabled:bg-gray-400 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300 whitespace-nowrap cursor-pointer"
+                                >
+                                    Submit Application
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- contact section -->
+            <section id="Contact" class="py-20 px-[5%] bg-gray-50">
+                <div class="max-w-7xl mx-auto">
+                    <div class="text-center mb-16">
+                        <h2
+                            class="text-4xl md:text-5xl font-bold text-gray-800 mb-6"
+                        >
+                            Get In <span class="text-yellow-600">Touch</span>
+                        </h2>
+                        <div class="w-24 h-1 bg-yellow-500 mx-auto mb-8"></div>
+                        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                            Ready to explore partnership opportunities or learn
+                            more about our services? We'd love to hear from you.
+                        </p>
+                    </div>
+                    <div class="grid lg:grid-cols-2 gap-12">
+                        <div>
+                            <h3 class="text-3xl font-bold text-gray-800 mb-6">
+                                Let's Start a Conversation
+                            </h3>
+                            <p
+                                class="text-lg text-gray-600 mb-8 leading-relaxed"
+                            >
+                                Whether you're interested in our construction
+                                services, electronics trading, logistics
+                                solutions, or courier services, our team is
+                                ready to discuss how Luxen Holdings can meet
+                                your business needs.
+                            </p>
+                            <div class="space-y-6">
+                                <div class="flex items-start space-x-4">
+                                    <div
+                                        class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center flex-shrink-0"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="18"
+                                            height="18"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="lucide lucide-map-pin-icon lucide-map-pin text-yellow-600"
+                                        >
+                                            <path
+                                                d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                                            />
+                                            <circle cx="12" cy="10" r="3" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4
+                                            class="text-xl font-semibold text-gray-800 mb-2"
+                                        >
+                                            Corporate Office
+                                        </h4>
+                                        <!-- <p class="text-gray-600">
+                                            123 Business Plaza, Suite 500<br />Corporate
+                                            District, NY 10001<br />United
+                                            States
+                                        </p> -->
+                                        <p class="text-gray-600">
+                                            Abu Dhabi Business Hub – ICAD – 1,
+                                            <br>
+                                            PO.Box: 91663, Abu Dhabi,   
+                                            <br>
+                                            UAE
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-4">
+                                    <div
+                                        class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center flex-shrink-0"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="18"
+                                            height="18"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="lucide lucide-phone-icon lucide-phone text-yellow-600"
+                                        >
+                                            <path
+                                                d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4
+                                            class="text-xl font-semibold text-gray-800 mb-2"
+                                        >
+                                            Phone &amp; Email
+                                        </h4>
+                                        <p class="text-gray-600">
+                                            Phone: +971 2 554 6006<br />Email:
+                                            info@luxenholdings.com<br />Business
+                                            Hours: Mon-Fri 9AM-6PM EST  
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-4">
+                                    <div
+                                        class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center flex-shrink-0"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="18"
+                                            height="18"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="lucide lucide-clock3-icon lucide-clock-3 text-yellow-600"
+                                        >
+                                            <circle cx="12" cy="12" r="10" />
+                                            <path d="M12 6v6h4" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4
+                                            class="text-xl font-semibold text-gray-800 mb-2"
+                                        >
+                                            Response Time
+                                        </h4>
+                                        <p class="text-gray-600">
+                                           We typically respond to all inquiries within 24 hours during business days (9:00 AM – 5:00 PM, Sunday off)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-8">
+                                <!-- <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343008!2d-74.00425878459418!3d40.74844097932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bf5c1654f3%3A0xc80f9cfce5383d5d!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sus!4v1635959542207!5m2!1sen!2sus"
+                                    width="100%"
+                                    height="250"
+                                    allowfullscreen=""
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    class="rounded-lg shadow-md"
+                                    title="Luxen Holdings Corporate Office Location"
+                                    style="border: 0px"
+                                ></iframe> -->
+                                <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3635.7271683292606!2d54.519255!3d24.321150000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDE5JzE2LjEiTiA1NMKwMzEnMDkuMyJF!5e0!3m2!1sen!2sin!4v1772614484546!5m2!1sen!2sin"
+                                    width="100%"
+                                    height="250"
+                                    allowfullscreen="" 
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    class="rounded-lg shadow-md"
+                                    title="Luxen Holdings Corporate Office Location"
+                                    style="border:0px;"
+                                ></iframe>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-xl h-fit p-8 shadow-lg">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-6">
+                                Send Us a Message
+                            </h3>
+                            <form data-readdy-form="true" id="contact-form">
+                                <div class="grid md:grid-cols-2 gap-4 mb-4">
+                                    <div>
+                                        <label
+                                            for="name"
+                                            class="block text-sm font-medium text-gray-700 mb-2"
+                                            >Full Name *</label
+                                        ><input
+                                            id="name"
+                                            required=""
+                                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-transparent text-sm"
+                                            placeholder="Your full name"
+                                            type="text"
+                                            value=""
+                                            name="name"
+                                        />
+                                    </div>
+                                    <div>
+                                        <label
+                                            for="email"
+                                            class="block text-sm font-medium text-gray-700 mb-2"
+                                            >Email Address *</label
+                                        ><input
+                                            id="email"
+                                            required=""
+                                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-transparent text-sm"
+                                            placeholder="your.email@example.com"
+                                            type="email"
+                                            value=""
+                                            name="email"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="grid md:grid-cols-2 gap-4 mb-4">
+                                    <div>
+                                        <label
+                                            for="company"
+                                            class="block text-sm font-medium text-gray-700 mb-2"
+                                            >Company Name</label
+                                        ><input
+                                            id="company"
+                                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-transparent text-sm"
+                                            placeholder="Your company name"
+                                            type="text"
+                                            value=""
+                                            name="company"
+                                        />
+                                    </div>
+                                    <div>
+                                        <label
+                                            for="subject"
+                                            class="block text-sm font-medium text-gray-700 mb-2"
+                                            >Subject *</label
+                                        ><select
+                                            id="subject"
+                                            name="subject"
+                                            required=""
+                                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-transparent text-sm pr-8"
+                                        >
+                                            <option value="">
+                                                Select a subject
+                                            </option>
+                                            <option value="general-inquiry">
+                                                General Inquiry
+                                            </option>
+                                            <option
+                                                value="construction-services"
+                                            >
+                                                Construction Services
+                                            </option>
+                                            <option value="electronics-trading">
+                                                Electronics Trading
+                                            </option>
+                                            <option value="logistics-services">
+                                                Logistics Services
+                                            </option>
+                                            <option value="courier-services">
+                                                Courier Services
+                                            </option>
+                                            <option value="partnership">
+                                                Partnership Opportunity
+                                            </option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="mb-6">
+                                    <label
+                                        for="message"
+                                        class="block text-sm font-medium text-gray-700 mb-2"
+                                        >Message *</label
+                                    ><textarea
+                                        id="message"
+                                        name="message"
+                                        required=""
+                                        rows="5"
+                                        maxlength="500"
+                                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-transparent text-sm resize-none"
+                                        placeholder="Please provide details about your inquiry..."
+                                    ></textarea>
+                                    <p class="text-xs text-gray-500 mt-1">
+                                        0/500 characters
+                                    </p>
+                                </div>
+                                <button
+                                    type="submit"
+                                    class="w-full bg-yellow-500 hover:bg-yellow-600 disabled:bg-gray-400 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300 whitespace-nowrap cursor-pointer"
+                                >
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- footer -->
+        <section class="footer">
+            <footer class="bg-slate-900 px-[5%] text-white">
+                <div class="max-w-7xl mx-auto py-16">
+                    <div class="grid lg:grid-cols-4 gap-12">
+                        <div class="lg:col-span-2">
+                            <div class="flex items-center space-x-3 mb-6">
+                                
+                                <div>
+                                    <div class="text-2xl font-light flex flex-row items-center gap-2  text-white">
+                                        <img
+                                            onclick="
+                                                window.location.href = '#Home'
+                                            "
+                                            src="/images/logo.png"
+                                            class="w-22 h-auto"
+                                        />
+                                        <span class="font-bold">Holdings</span>
+                                    </div>
+                                    <div class="text-amber-400 text-sm">
+                                        Building Excellence Across Industries
+                                    </div>
+                                </div>
+                            </div>
+                            <p
+                                class="text-slate-300 leading-relaxed mb-6 max-w-md"
+                            >
+                                A premier diversified holding company
+                                orchestrating specialized enterprises with
+                                unwavering commitment to operational excellence,
+                                strategic innovation, and sustainable growth.
+                            </p>
+                            <div class="flex space-x-4">
+                                <a
+                                    href="#"
+                                    class="w-10 h-10 bg-slate-800 hover:bg-amber-600 rounded-lg flex items-center justify-center transition-colors duration-300"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="18"
+                                        height="18"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="white"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-linkedin-icon lucide-linkedin"
+                                    >
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                                        />
+                                        <rect
+                                            width="4"
+                                            height="12"
+                                            x="2"
+                                            y="9"
+                                        />
+                                        <circle cx="4" cy="4" r="2" />
+                                    </svg>
+                                </a>
+                                <a
+                                    href="#"
+                                    class="w-10 h-10 bg-slate-800 hover:bg-amber-600 rounded-lg flex items-center justify-center transition-colors duration-300"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="18"
+                                        height="18"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-twitter-icon lucide-twitter"
+                                    >
+                                        <path
+                                            d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+                                        />
+                                    </svg>
+                                </a>
+                                <a
+                                    href="#"
+                                    class="w-10 h-10 bg-slate-800 hover:bg-amber-600 rounded-lg flex items-center justify-center transition-colors duration-300"
+                                    ><svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="18"
+                                        height="18"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-facebook-icon lucide-facebook"
+                                    >
+                                        <path
+                                            d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                                        />
+                                    </svg> </a
+                                ><a
+                                    href="#"
+                                    class="w-10 h-10 bg-slate-800 hover:bg-amber-600 rounded-lg flex items-center justify-center transition-colors duration-300"
+                                    ><svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="18"
+                                        height="18"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-instagram-icon lucide-instagram"
+                                    >
+                                        <rect
+                                            width="20"
+                                            height="20"
+                                            x="2"
+                                            y="2"
+                                            rx="5"
+                                            ry="5"
+                                        />
+                                        <path
+                                            d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                                        />
+                                        <line
+                                            x1="17.5"
+                                            x2="17.51"
+                                            y1="6.5"
+                                            y2="6.5"
+                                        />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold mb-6">
+                                Quick Links
+                            </h3>
+                            <ul class="space-y-3">
+                                <li>
+                                    <a
+                                        href="#Home"
+                                        class="text-slate-300 hover:text-amber-400 transition-colors duration-300 cursor-pointer"
+                                    >
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#About"
+                                        class="text-slate-300 hover:text-amber-400 transition-colors duration-300 cursor-pointer"
+                                    >
+                                        About Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#Portfolio"
+                                        class="text-slate-300 hover:text-amber-400 transition-colors duration-300 cursor-pointer"
+                                    >
+                                        Our Portfolio
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#Leadership"
+                                        class="text-slate-300 hover:text-amber-400 transition-colors duration-300 cursor-pointer"
+                                    >
+                                        Leadership
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#Careers"
+                                        class="text-slate-300 hover:text-amber-400 transition-colors duration-300 cursor-pointer"
+                                    >
+                                        Careers
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold mb-6">
+                                Contact Information
+                            </h3>
+                            <div class="space-y-4">
+                                <div class="flex items-start space-x-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="18"
+                                        height="18"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-map-pin-icon lucide-map-pin text-amber-400"
+                                    >
+                                        <path
+                                            d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                                        />
+                                        <circle cx="12" cy="10" r="3" />
+                                    </svg>
+                                    <div>
+                                        <div class="text-slate-300">
+                                            Corporate Headquarters
+                                        </div>
+                                        <div class="text-sm text-slate-400">
+                                            Abu Dhabi Business Hub – ICAD – 1, <br>PO.Box: 91663, Abu Dhabi, UAE
+                                        </div>
+                                        <!-- <div class="text-sm text-slate-400">
+                                            123 Executive Plaza<br />Business
+                                            District, NY 10001
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="18"
+                                        height="18"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-phone-icon lucide-phone text-amber-400"
+                                    >
+                                        <path
+                                            d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+                                        />
+                                    </svg>
+                                    <div>
+                                        <div class="text-slate-300">
+                                            +971 2 554 6006
+                                        </div>
+                                        <div class="text-sm text-slate-400">
+                                            Main Office
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="18"
+                                        height="18"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-mail-icon lucide-mail text-amber-400"
+                                    >
+                                        <path
+                                            d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                                        />
+                                        <rect
+                                            x="2"
+                                            y="4"
+                                            width="20"
+                                            height="16"
+                                            rx="2"
+                                        />
+                                    </svg>
+                                    <div>
+                                        <div class="text-slate-300">
+                                            info@luxenholdings.com
+                                        </div>
+                                        <div class="text-sm text-slate-400">
+                                            General Inquiries
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-t border-slate-800 mt-12 pt-8">
+                        <h3 class="text-lg font-semibold mb-6 text-center">
+                            Our Subsidiaries
+                        </h3>
+                        <div class="grid md:grid-cols-4 gap-6 text-center">
+                            <div>
+                                <h4 class="font-medium text-white mb-2">
+                                    Luxen Contracting & Real Estate
+                                </h4>
+                                <p class="text-sm text-slate-400">
+                                    Construction &amp; Real Estate
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-white mb-2">
+                                    Luxen Electronics
+                                </h4>
+                                <p class="text-sm text-slate-400">
+                                    Luxen Electronics trading
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-white mb-2">
+                                    Luxury Express
+                                </h4>
+                                <p class="text-sm text-slate-400">
+                                    Courier Services
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-white mb-2">
+                                    Luxury logistics cargo services
+                                </h4>
+                                <p class="text-sm text-slate-400">
+                                    Supply Chain Solutions
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid md:grid-cols-3 gap-6  text-center mt-8">
+                            <div>
+                                <h4 class="font-medium text-white mb-2">
+                                        Luxen Sand Blasting & Painting
+                                </h4>
+                                <p class="text-sm text-slate-400">
+                                        Surface Protection Solutions
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-white mb-2">
+                                    Luxen Transport
+                                </h4>
+                                <p class="text-sm text-slate-400">
+                                    Transport & Logistics
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-white mb-2">
+                                    Forever Interiors & Fit-Outs
+                                </h4>
+                                <p class="text-sm text-slate-400">
+                                    Interior Fit-Out Specialists
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="border-t border-slate-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center"
+                    >
+                        <div class="text-slate-400 text-sm mb-4 md:mb-0">
+                            © 2026 Luxen Holdings. All rights reserved.
+                        </div>
+                        <div class="flex items-center space-x-6 text-sm">
+                            <a
+                                href="#"
+                                class="text-slate-400 hover:text-amber-400 transition-colors duration-300"
+                                >Privacy Policy</a
+                            ><a
+                                href="#"
+                                class="text-slate-400 hover:text-amber-400 transition-colors duration-300"
+                                >Terms of Service</a
+                            ><a
+                                href="#"
+                                class="text-slate-400 hover:text-amber-400 transition-colors duration-300"
+                                >Legal Notice</a
+                            ><a
+                                href="https://readdy.ai/?origin=logo"
+                                class="text-slate-400 hover:text-amber-400 transition-colors duration-300"
+                                >Website Builder</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+         <!-- Popup -->
+        <div id="popup"
+            class="fixed z-50 px-[5%] inset-0 flex items-center justify-center bg-white/60 backdrop-blur-sm opacity-0 invisible transition-opacity duration-300">
+
+            <div id="popupBox"
+            class="bg-white w-80 p-7 rounded-2xl shadow-2xl text-center transform scale-90 opacity-0 translate-y-4 transition-all duration-300">
+
+            <!-- Icon -->
+            <div id="p-icon" class="w-14 h-14 mx-auto mb-4 flex items-center justify-center rounded-full  text-2xl">
+            </div>
+
+            <!-- Text -->
+            <h2 class="text-lg font-semibold text-slate-800 " id="p-status"></h2>
+            <p class="text-sm text-slate-500 mt-1 mb-5 " id="p-data">
+            </p>
+
+            <!-- Button -->
+            <button onclick="closePopup()"
+            id="p-button"
+                class="w-full text-white py-2 rounded-lg transition">
+                OK
+            </button>
+            </div>
+        </div>
+        <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+        ></script>
+        <script>
+            $("#contact-form").submit((e)=>{
+                e.preventDefault()
+                $.ajax({
+                    url:"https://script.google.com/macros/s/AKfycbyKRkITB7EJ-eMT_7rTIkZreQxET39ZN7AymMfItLHsGtVBgJlvarl__acaQTZEm_aP/exec",
+                    data:$("#contact-form").serialize(),
+                    method:"post",
+                    success:function (response){
+                        showPopup(true,"Your message has been submitted. We’ll get back to you soon.");
+                    },
+                    error:function (err){
+                        showPopup(false,"Your message could not be submitted. Please try again.")
+        
+                    }
+                })
+            })
+            $("#careers-form").submit((e)=>{
+                e.preventDefault()
+                $.ajax({
+                    url:"https://script.google.com/macros/s/AKfycbzUt0b5NM1IrXFysroBR8M4lononei-DlcA13NPTpujuGUfCMD4Z5kc3cxWaAIIvUMY/exec",
+                    data:$("#careers-form").serialize(),
+                    method:"post",
+                    success:function (response){
+                        showPopup(true,"Your application has been submitted successfully. We’ll review it and get back to you soon.")
+                    },
+                    error:function (err){
+                        showPopup(false,"Your application could not be submitted. Please try again.")
+        
+                    }
+                })
+            })
+        
+        </script>
+        <!-- <script>
+            (function () {
+                emailjs.init({
+                    publicKey: "vH5Q4SOuQB4zWJZes",
+                });
+            })();
+
+            const form = document.getElementById("contact-form");
+
+            form.addEventListener("submit", function (e) {
+                e.preventDefault();
+                const formData = new FormData(form);
+
+                // Convert to an object
+                const data = Object.fromEntries(formData.entries());
+
+                emailjs.send("service_odardk2", "template_ervdz95", data).then(
+                    (response) => {
+                        window.alert("Message sent Successfully");
+                        window.location = "";
+                    },
+                    (error) => {
+                        window.alert(
+                            "Something went wrong .please try again later",
+                        );
+                    },
+                );
+            });
+            const form2 = document.getElementById("careers-form");
+
+            form2.addEventListener("submit", function (e) {
+                e.preventDefault();
+                const formData = new FormData(form2);
+
+                // Convert to an object
+                const data = Object.fromEntries(formData.entries());
+
+                emailjs.send("service_ptt2gmu", "template_c7euewn", data).then(
+                    (response) => {
+                        window.alert("Job application sent Successfully");
+                        window.location = "";
+                    },
+                    (error) => {
+                        window.alert(
+                            "Something went wrong .please try again later",
+                        );
+                    },
+                );
+            });
+        </script> -->
+    </body>
+</html>
