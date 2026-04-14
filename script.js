@@ -138,10 +138,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const mobilePortfolioBtn = document.getElementById("mobilePortfolioBtn");
 const mobilePortfolioMenu = document.getElementById("mobilePortfolioMenu");
+const plusi = document.getElementById("plusi");
 let clicks=0
 mobilePortfolioBtn.addEventListener("click", () => {
     if(clicks<1){
         mobilePortfolioMenu.classList.remove("hidden");
+        plusi.classList.add("hidden")
     }else{
         window.location='/portfolio.html'
     }
