@@ -16,7 +16,14 @@ overlay.addEventListener("click", closeMenu);
 
 const mobilePortfolioBtn = document.getElementById("mobilePortfolioBtn");
 const mobilePortfolioMenu = document.getElementById("mobilePortfolioMenu");
-
+let clicks=0
 mobilePortfolioBtn.addEventListener("click", () => {
-    mobilePortfolioMenu.classList.toggle("hidden");
+    console.log(clicks);
+    
+    if(clicks<1){
+        mobilePortfolioMenu.classList.remove("hidden");
+    }else{
+        window.location='/portfolio.html'
+    }
+    clicks=clicks+1
 });
