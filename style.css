@@ -105,3 +105,9 @@ html::-webkit-scrollbar-thumb:hover {
     }
 }
 
+@media (max-width: 639px) {
+.sub-image{
+    aspect-ratio: 1/1;
+    background-size: cover;
+}
+}
