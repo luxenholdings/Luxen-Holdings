@@ -140,8 +140,6 @@ const mobilePortfolioBtn = document.getElementById("mobilePortfolioBtn");
 const mobilePortfolioMenu = document.getElementById("mobilePortfolioMenu");
 let clicks=0
 mobilePortfolioBtn.addEventListener("click", () => {
-    console.log(clicks);
-    
     if(clicks<1){
         mobilePortfolioMenu.classList.remove("hidden");
     }else{
